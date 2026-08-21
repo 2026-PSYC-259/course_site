@@ -18,7 +18,7 @@ For details about checking already-installed software, check [these instructions
 
 Follow the directions [here](https://happygitwithr.com/install-git.html) install git on either Windows or Mac.
 
-Create a [GitHub account](https://github.com) (if you don't already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name!
+Create a free [GitHub account](https://github.com) (if you don't already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name.
 
 Install the GitHub [Desktop client](https://desktop.github.com/). 
 

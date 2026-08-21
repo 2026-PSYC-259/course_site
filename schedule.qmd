@@ -4,7 +4,7 @@ title: "Schedule"
 
 ```{r dates_bib, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-wed <- as.Date("2025-01-06")
+wed <- as.Date("2026-09-28")
 
 advdate <- function(obj, adv) {
  tmon <- obj + 7*(adv-1)
@@ -39,9 +39,7 @@ Read before class: *R4DS* [Workflow Basics](https://r4ds.hadley.nz/workflow-basi
 <!-- - [Github project link](https://github.com/psych-259-data-science-2022/259-langbasics-importing) -->
 <!-- - [Github homework link](https://github.com/psych-259-data-science-2022/259-langbasics-importing-hw) -->
 
-##  `r advdate(wed, 3)`: NO CLASS - MLK DAY
-
-##  `r advdate(wed, 4)`: [Data Transformations](lectures/3DataTransformations.qmd)
+##  `r advdate(wed, 3)`: [Data Transformations](lectures/3DataTransformations.qmd)
 Read before class: *R4DS* [Data transformation](https://r4ds.hadley.nz/data-transform), [Numbers](https://r4ds.hadley.nz/numbers), and [Strings](https://r4ds.hadley.nz/strings)
 
 - Basic data types (numbers, strings)
@@ -56,12 +54,14 @@ Read before class: *R4DS* [Data transformation](https://r4ds.hadley.nz/data-tran
 <!-- - [Github project link](https://github.com/psych-259-data-science-2022/259-data-transformations) -->
 <!-- - [Github homework link](https://github.com/psych-259-data-science-2022/259-data-transformations-hw) -->
 
-##  `r advdate(wed, 5)`: [Data Structure](lectures/4DataStructure.qmd)
+##  `r advdate(wed, 4)`: [Data Structure](lectures/4DataStructure.qmd)
 Read before class: *R4DS* [Tidy data](https://r4ds.hadley.nz/data-tidy), [Factors](https://r4ds.hadley.nz/factors), and [Dates](https://r4ds.hadley.nz/datetimes)
 
 - Tidy data (observations/cases)
 - More advanced data types (factors, dates, vectors, lists)
 - *SKILLS:* More data wrangling, factors, dates
+
+##  `r advdate(wed, 5)`: [Workflow Critique Presentations](assignments/WorkflowCritique.qmd)
 
 <!-- *GitHub Project Links:* -->
 
@@ -83,9 +83,7 @@ Read before class: *R4DS* [Functions](https://r4ds.hadley.nz/functions), [Vector
 
 <!-- - [Automation](https://github.com/psych-259-data-science-2022/259-automation) -->
 
-##  `r advdate(wed, 7)`: NO CLASS: PRESIDENTS' DAY
-
-##  `r advdate(wed, 8)`: [Exploratory Data Analysis](lectures/6EDA.qmd)
+##  `r advdate(wed, 7)`: [Exploratory Data Analysis](lectures/6EDA.qmd)
 Read before class: *R4DS* [Data visualization](https://r4ds.hadley.nz/data-visualize), [Layers](https://r4ds.hadley.nz/layers) and [Exporatory data analysis](https://r4ds.hadley.nz/eda)
 
 - Data validation
@@ -98,7 +96,7 @@ Read before class: *R4DS* [Data visualization](https://r4ds.hadley.nz/data-visua
 <!-- - [Visualization and EDA](https://github.com/psych-259-data-science-2022/259-exploratory-data-analysis) -->
 <!-- - [Integrating skills homework](https://github.com/psych-259-data-science-2022/259-integrating-skills-hw) -->
 
-##  `r advdate(wed, 9)`: [Data Sharing and Reproducibility](lectures/7DataSharing.qmd)
+##  `r advdate(wed, 8)`: [Data Sharing and Reproducibility](lectures/7DataSharing.qmd)
 Read before class: *R4DS* [Quarto](https://r4ds.hadley.nz/quarto) and [Quarto formats](https://r4ds.hadley.nz/quarto-formats)
 
 - Reuse-minded project management
@@ -113,7 +111,7 @@ Read before class: *R4DS* [Quarto](https://r4ds.hadley.nz/quarto) and [Quarto fo
 <!-- - [RMarkdown](https://github.com/psych-259-data-science-2022/259-rmarkdown) -->
 <!-- - [RMarkdown homework](https://github.com/psych-259-data-science-2022/259-rmarkdown-hw) -->
 
-##  `r advdate(wed, 10)`: [Visualization](lectures/8Visualization.qmd)
+##  `r advdate(wed, 9)`: [Visualization](lectures/8Visualization.qmd)
 Read before class: [Chartjunk](https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=00040Z) from (Tufte 1990; 2001; 2006) and *R4DS* [Graphics for communication](https://r4ds.hadley.nz/communication)
 
 - Communicating through graphical styles
@@ -124,3 +122,5 @@ Read before class: [Chartjunk](https://www.edwardtufte.com/bboard/q-and-a-fetch-
 <!-- *GitHub Project Links:* -->
 
 <!-- - [Visualization](https://github.com/psych-259-data-science-2022/259-visualization-communication) -->
+
+##  `r advdate(wed, 10)`: [Final Project Presentations](assignments/FinalProject.qmd)

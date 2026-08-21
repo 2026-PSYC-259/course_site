@@ -20,6 +20,7 @@ format:
 - [{{< fa user >}}]{.fa-li} [{{< var instructor.name >}}]({{< var instructor.url >}})
 - [{{< fa university >}}]{.fa-li} {{< var instructor.office >}}
 - [{{< fa envelope >}}]{.fa-li} <a href='mailto:{{< var instructor.email >}}'>{{< var instructor.email >}}</a>
+- [{{< fa brands github >}}]{.fa-li} <a href='https://github.com/{{< var instructor.github >}}'>{{< var instructor.github >}}</a>
 - [{{< fa calendar-check >}}]{.fa-li} [Schedule an appointment]({{< var instructor.appointment_url >}})
 :::
 
@@ -27,6 +28,7 @@ format:
 - [{{< fa user >}}]{.fa-li} [{{< var instructor2.name >}}]({{< var instructor2.url >}})
 - [{{< fa university >}}]{.fa-li} {{< var instructor2.office >}}
 - [{{< fa envelope >}}]{.fa-li} <a href='mailto:{{< var instructor2.email >}}'>{{< var instructor2.email >}}</a>
+- [{{< fa brands github >}}]{.fa-li} <a href='https://github.com/{{< var instructor2.github >}}'>{{< var instructor2.github >}}</a>
 :::
 
 ::::
@@ -34,8 +36,8 @@ format:
 ::: {.course-details .course-details-smaller}
 ### Course details
 
-- [{{< fa calendar >}}]{.fa-li} {{< var course.days >}}
 - [{{< fa calendar-alt >}}]{.fa-li} {{< var course.dates >}}
+- [{{< fa calendar >}}]{.fa-li} {{< var course.days >}}
 - [{{< fa clock >}}]{.fa-li} {{< var course.time >}}
 - [{{< fa compass >}}]{.fa-li} {{< var course.location >}}
 :::
@@ -64,7 +66,7 @@ The goals of this course are for you to critically analyze and improve your data
 
 # Course Policies
 
-Keep an eye on the course [website](index.qmd) for updates to the syllabus and materials. We will communicate changes through email and/or Canvas announcements. 
+Keep an eye on this course [website](index.qmd) for updates to the syllabus and materials. We will communicate changes through email and/or Canvas announcements. 
 
 ## Assignments and Grading
 

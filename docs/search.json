@@ -100,14 +100,14 @@
     "href": "resources/Setup.html",
     "title": "Setting up your coding environment",
     "section": "",
-    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from Happy Git.\n\n\nInstall a pre-compiled binary of R for your operating system from CRAN. Make sure you pick the right version for Apple silicon (M1, M2, etc.) versus Intel Macs.\nInstall RStudio Desktop.\nFor details about checking already-installed software, check these instructions.\n\n\n\nFollow the directions here install git on either Windows or Mac.\nCreate a GitHub account (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name!\nInstall the GitHub Desktop client.\n\n\n\nFollow the “Hello, World” Tutorial here. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
+    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from Happy Git.\n\n\nInstall a pre-compiled binary of R for your operating system from CRAN. Make sure you pick the right version for Apple silicon (M1, M2, etc.) versus Intel Macs.\nInstall RStudio Desktop.\nFor details about checking already-installed software, check these instructions.\n\n\n\nFollow the directions here install git on either Windows or Mac.\nCreate a free GitHub account (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name.\nInstall the GitHub Desktop client.\n\n\n\nFollow the “Hello, World” Tutorial here. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
   },
   {
     "objectID": "resources/Setup.html#setting-up-r-rstudio-git-and-github",
     "href": "resources/Setup.html#setting-up-r-rstudio-git-and-github",
     "title": "Setting up your coding environment",
     "section": "",
-    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from Happy Git.\n\n\nInstall a pre-compiled binary of R for your operating system from CRAN. Make sure you pick the right version for Apple silicon (M1, M2, etc.) versus Intel Macs.\nInstall RStudio Desktop.\nFor details about checking already-installed software, check these instructions.\n\n\n\nFollow the directions here install git on either Windows or Mac.\nCreate a GitHub account (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name!\nInstall the GitHub Desktop client.\n\n\n\nFollow the “Hello, World” Tutorial here. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
+    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from Happy Git.\n\n\nInstall a pre-compiled binary of R for your operating system from CRAN. Make sure you pick the right version for Apple silicon (M1, M2, etc.) versus Intel Macs.\nInstall RStudio Desktop.\nFor details about checking already-installed software, check these instructions.\n\n\n\nFollow the directions here install git on either Windows or Mac.\nCreate a free GitHub account (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name.\nInstall the GitHub Desktop client.\n\n\n\nFollow the “Hello, World” Tutorial here. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
   },
   {
     "objectID": "assignments/WorkflowCritique.html",
@@ -191,7 +191,7 @@
     "href": "assignments.html",
     "title": "Assignments",
     "section": "",
-    "text": "Due Date\n\n\nTitle\n\n\nAssignment Type\n\n\n\n\n\n\nFriday, January 24, 2025\n\n\nData Importing\n\n\nHomework\n\n\n\n\nFriday, January 31, 2025\n\n\nData Transformations\n\n\nHomework\n\n\n\n\nSunday, February 2, 2025\n\n\nWorkflow Critique\n\n\nPresentation\n\n\n\n\nFriday, February 7, 2025\n\n\nData Transformations\n\n\nHomework\n\n\n\n\nFriday, February 21, 2025\n\n\nAutomation and Functions\n\n\nHomework\n\n\n\n\nFriday, February 28, 2025\n\n\nIntegrating Skills\n\n\nHomework\n\n\n\n\nFriday, March 7, 2025\n\n\nQuarto Reports\n\n\nHomework\n\n\n\n\nMonday, March 17, 2025\n\n\nFinal Project\n\n\nProject\n\n\n\n\n\nNo matching items"
+    "text": "Due Date\n\n\n\nTitle\n\n\n\nAssignment Type\n\n\n\n\n\n\n\n\nFriday, January 24, 2025\n\n\nData Importing\n\n\nHomework\n\n\n\n\n\n\nFriday, January 31, 2025\n\n\nData Transformations\n\n\nHomework\n\n\n\n\n\n\nSunday, February 2, 2025\n\n\nWorkflow Critique\n\n\nPresentation\n\n\n\n\n\n\nFriday, February 7, 2025\n\n\nData Transformations\n\n\nHomework\n\n\n\n\n\n\nFriday, February 21, 2025\n\n\nAutomation and Functions\n\n\nHomework\n\n\n\n\n\n\nFriday, February 28, 2025\n\n\nIntegrating Skills\n\n\nHomework\n\n\n\n\n\n\nFriday, March 7, 2025\n\n\nQuarto Reports\n\n\nHomework\n\n\n\n\n\n\nMonday, March 17, 2025\n\n\nFinal Project\n\n\nProject\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "assignments/AutomationHomework.html",
@@ -240,7 +240,7 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Prof. John Franchak\n Psychology 2125\n franchak@ucr.edu\n Schedule an appointment\n\n\n\n\n Prof. Holly O’Rourke\n Psychology 3101\n holly.orourke@ucr.edu"
+    "text": "Prof. John Franchak\n Psychology 2125\n franchak@ucr.edu\n johnfranchak\n Schedule an appointment\n\n\n\n\n Prof. Holly O’Rourke\n Psychology 3101\n holly.orourke@ucr.edu\n horourke"
   },
   {
     "objectID": "syllabus.html#assignments-and-grading",
@@ -358,5 +358,75 @@
     "title": "Resources",
     "section": "",
     "text": "Title\n\n\n\n\n\n\n\n\nBooks and websites\n\n\n\n\n\n\nSetting up your coding environment\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "schedule.html#week-01-0928-course-goals-and-setup",
+    "href": "schedule.html#week-01-0928-course-goals-and-setup",
+    "title": "Schedule",
+    "section": "",
+    "text": "Read before class: R4DS Introduction\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github"
+  },
+  {
+    "objectID": "schedule.html#week-02-1005-file-organization-and-workflow",
+    "href": "schedule.html#week-02-1005-file-organization-and-workflow",
+    "title": "Schedule",
+    "section": "Week 02, 10/05: File Organization and Workflow",
+    "text": "Week 02, 10/05: File Organization and Workflow\nRead before class: R4DS Workflow Basics, Scripts and projects, and Data import\n\nFile organization\nVersion control\nSKILLS: R language basics (variables, assignment, comments, calling functions), file import/export"
+  },
+  {
+    "objectID": "schedule.html#week-03-1012-data-transformations",
+    "href": "schedule.html#week-03-1012-data-transformations",
+    "title": "Schedule",
+    "section": "Week 03, 10/12: Data Transformations",
+    "text": "Week 03, 10/12: Data Transformations\nRead before class: R4DS Data transformation, Numbers, and Strings\n\nBasic data types (numbers, strings)\nVariable naming\nSKILLS: dplyr data wrangling, logical statements, strings"
+  },
+  {
+    "objectID": "schedule.html#week-04-1019-data-structure",
+    "href": "schedule.html#week-04-1019-data-structure",
+    "title": "Schedule",
+    "section": "Week 04, 10/19: Data Structure",
+    "text": "Week 04, 10/19: Data Structure\nRead before class: R4DS Tidy data, Factors, and Dates\n\nTidy data (observations/cases)\nMore advanced data types (factors, dates, vectors, lists)\nSKILLS: More data wrangling, factors, dates"
+  },
+  {
+    "objectID": "schedule.html#week-05-1026-workflow-critique-presentations",
+    "href": "schedule.html#week-05-1026-workflow-critique-presentations",
+    "title": "Schedule",
+    "section": "Week 05, 10/26: Workflow Critique Presentations",
+    "text": "Week 05, 10/26: Workflow Critique Presentations"
+  },
+  {
+    "objectID": "schedule.html#week-06-1102-automation-functions-and-iteration",
+    "href": "schedule.html#week-06-1102-automation-functions-and-iteration",
+    "title": "Schedule",
+    "section": "Week 06, 11/02: Automation: Functions and Iteration",
+    "text": "Week 06, 11/02: Automation: Functions and Iteration\nRead before class: R4DS Functions, Vectors and Iteration\n\nFinding new packages/APIs vs. writing your own functions\nAutomating your analyses\nWriting more efficient code\nSKILLS: Writing custom functions, iteration (map, for loops)"
+  },
+  {
+    "objectID": "schedule.html#week-07-1109-exploratory-data-analysis",
+    "href": "schedule.html#week-07-1109-exploratory-data-analysis",
+    "title": "Schedule",
+    "section": "Week 07, 11/09: Exploratory Data Analysis",
+    "text": "Week 07, 11/09: Exploratory Data Analysis\nRead before class: R4DS Data visualization, Layers and Exporatory data analysis\n\nData validation\nAutomating visualizations\nSKILLS: Basic visualizations with ggplot2"
+  },
+  {
+    "objectID": "schedule.html#week-08-1116-data-sharing-and-reproducibility",
+    "href": "schedule.html#week-08-1116-data-sharing-and-reproducibility",
+    "title": "Schedule",
+    "section": "Week 08, 11/16: Data Sharing and Reproducibility",
+    "text": "Week 08, 11/16: Data Sharing and Reproducibility\nRead before class: R4DS Quarto and Quarto formats\n\nReuse-minded project management\nReproducible reports (Quarto vs. RMarkdown)\nPreserving programming environment and analyses\nSKILLS: R Markdown, package control"
+  },
+  {
+    "objectID": "schedule.html#week-09-1123-visualization",
+    "href": "schedule.html#week-09-1123-visualization",
+    "title": "Schedule",
+    "section": "Week 09, 11/23: Visualization",
+    "text": "Week 09, 11/23: Visualization\nRead before class: Chartjunk from (Tufte 1990; 2001; 2006) and R4DS Graphics for communication\n\nCommunicating through graphical styles\nInteractive plots for data exploration\nSKILLS: ggplot and extensions"
+  },
+  {
+    "objectID": "schedule.html#week-10-1130-final-project-presentations",
+    "href": "schedule.html#week-10-1130-final-project-presentations",
+    "title": "Schedule",
+    "section": "Week 10, 11/30: Final Project Presentations",
+    "text": "Week 10, 11/30: Final Project Presentations"
   }
 ]
