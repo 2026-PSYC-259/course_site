@@ -10,18 +10,28 @@ instructor:
   office: "Psychology 2125"
   contact_policy: >-
     E-Mail and Google Chat are the best ways to get in touch with me. I respond to most messages within 24 hours.
-  appointment_url: "https://calendar.app.google/kbf72J47oWpxbadf7"
+  appointment_url: "https://calendar.app.google/z5fREbiJmF4mFbDn7"
+
+instructor2:
+  name: Prof. Holly O'Rourke
+  name_no_title: Holly O'Rourke
+  email: holly.orourke@ucr.edu
+  url: "https://profiles.ucr.edu/app/home/profile/hollyo"
+  github: horourke
+  office: "Psychology 3101"
+  contact_policy: 
+  appointment_url: ""
 
 course:
   number: "PSYC 259"
-  semester: "Winter 2025"
+  semester: "Fall 2026"
   days: "Mondays"
-  time: "9:00am-11:50am"
-  location: "Psychology 1205"
-  dates: "January 6 to March 10"
-  github: "https://github.com/2025-PSYC-259"
-  url: "https://github.com/2025-PSYC-259"
-  copyright_year: "2025"
+  time: "1:00pm-3:50pm"
+  location: "Psychology 1213"
+  dates: "September 28 to November 30"
+  github: "https://github.com/2026-PSYC-259"
+  url: "https://github.com/2026-PSYC-259"
+  copyright_year: "2026"
 
 TA:
   name: "Madison Montemayor-Dominguez"

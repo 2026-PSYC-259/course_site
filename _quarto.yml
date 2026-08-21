@@ -19,7 +19,7 @@ website:
     type: danger
     position: below-navbar
   
-  repo-url: "https://github.com/2025-PSYC-259/course_site"
+  repo-url: "https://github.com/2026-PSYC-259/course_site"
   repo-actions: [edit, issue]
   
   sidebar:
@@ -51,7 +51,7 @@ website:
               file: lectures/6EDA.qmd
         - section: "Communication"
           contents:
-            - text: "7: Data Sharing and Reproducibility"
+            - text: "7: Sharing and Reproducibility"
               file: lectures/7DataSharing.qmd
             - text: "8: Visualization"
               file: lectures/8Visualization.qmd              

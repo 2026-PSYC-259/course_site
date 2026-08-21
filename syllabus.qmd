@@ -13,11 +13,10 @@ format:
 <!-- | {{< fa file-pdf title="Download" >}} [Download Syllabus](https://padlab.ucr.edu/Franchak_cv.pdf)  -->
 <!-- ::: -->
 
+### Instructors
 :::: {.grid .course-details .course-details-smaller}
 
 ::: {.g-col-18 .g-col-sm-8 .g-col-md-4}
-### Instructor
-
 - [{{< fa user >}}]{.fa-li} [{{< var instructor.name >}}]({{< var instructor.url >}})
 - [{{< fa university >}}]{.fa-li} {{< var instructor.office >}}
 - [{{< fa envelope >}}]{.fa-li} <a href='mailto:{{< var instructor.email >}}'>{{< var instructor.email >}}</a>
@@ -25,24 +24,20 @@ format:
 :::
 
 ::: {.g-col-18 .g-col-sm-8 .g-col-md-4}
+- [{{< fa user >}}]{.fa-li} [{{< var instructor2.name >}}]({{< var instructor2.url >}})
+- [{{< fa university >}}]{.fa-li} {{< var instructor2.office >}}
+- [{{< fa envelope >}}]{.fa-li} <a href='mailto:{{< var instructor2.email >}}'>{{< var instructor2.email >}}</a>
+:::
+
+::::
+
+::: {.course-details .course-details-smaller}
 ### Course details
 
 - [{{< fa calendar >}}]{.fa-li} {{< var course.days >}}
 - [{{< fa calendar-alt >}}]{.fa-li} {{< var course.dates >}}
 - [{{< fa clock >}}]{.fa-li} {{< var course.time >}}
 - [{{< fa compass >}}]{.fa-li} {{< var course.location >}}
-:::
-
-::::
-
-::: {.g-col-24 .g-col-md-4 .contact-policy}
-### TA Information
-
-- [{{< fa user >}}]{.fa-li} {{< var TA.name >}}
-- [{{< fa envelope >}}]{.fa-li} <a href='mailto:{{< var TA.email >}}'>{{< var TA.email >}}</a>
-- In-Person Office Hours: {{< var TA.officehour >}}: {{< var TA.office >}}
-- Zoom Office Hours: {{< var TA.zoomhour >}}: {{< var TA.zoomurl >}}
-
 :::
 
 # Course Description
@@ -62,14 +57,14 @@ The goals of this course are for you to critically analyze and improve your data
 # Course Materials
 
 - The course [website](index.qmd) has the schedule, lectures, and assignments.
-- The [Github page](https://github.com/orgs/2025-PSYC-259/repositories) has all of the code repositories that we cover, and the source code for this website.
+- The [Github page](https://github.com/orgs/2026-PSYC-259/repositories) has all of the code repositories that we cover, and the source code for this website.
 - Readings from *R for Data Science* are available [online](https://r4ds.hadley.nz/).
 - PDFs of other course readings are linked from the [schedule](schedule.qmd) and lectures
 - Other helpful [resources](resources.qmd) are compiled for your future reference.
 
 # Course Policies
 
-Keep an eye on the course [website](index.qmd) for updates to the syllabus and materials. I will communicate changes through email and/or Canvas announcements. 
+Keep an eye on the course [website](index.qmd) for updates to the syllabus and materials. We will communicate changes through email and/or Canvas announcements. 
 
 ## Assignments and Grading
 
@@ -89,7 +84,7 @@ You are expected to attend each class and participate in class discussions. Read
 
 ### Weekly Assignments 
 
-I will assign short practical assignments after most weeks of class. These exercises will develop your skills in R programming and other concepts that we discuss. You are allowed to work in groups of 2-4 students to complete these exercises if you would like, but each student should turn in their own assignment. Please indicate in the top of your assignment the names of the students you worked with. Some class time will be given so that you can start work on the assignment with the help of the instructor/TA. Office hours are also available for help on assignments. 
+We will assign short practical assignments after most weeks of class. These exercises will develop your skills in R programming and other concepts that we discuss. You are allowed to work in groups of 2-3 students to complete these exercises if you would like, but each student should turn in their own assignment. Please indicate in the top of your assignment the names of the students you worked with. Some class time will be given so that you can start work on the assignment with the help of the instructors.  
 
 ### Workflow Self-Critique 
 
@@ -101,5 +96,5 @@ In your final project, you will improve the data workflow that you chose using s
 
 ## Attendance
 
-In the event of absences due to illness or family obligations, please contact the instructor immediately so that we can make arrangements. Everyone is in a different situation, so I will always work with you to figure out a way to handle disruptions to learning. I want everyone in this class to succeed!
+In the event of absences due to illness or family obligations, please contact the instructors immediately so that we can make arrangements. Everyone is in a different situation, so we will always work with you to figure out a way to handle disruptions to learning.
 
