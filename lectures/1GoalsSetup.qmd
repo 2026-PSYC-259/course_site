@@ -34,7 +34,7 @@ Did you set up R, RStudio, git, and GitHub? If not, follow the instructions [her
 
 If you have git, a GitHub account, and the GitHub Desktop Client, let's try to fork a repository to your own account.
 
-- Navigate to [https://github.com/2025-PSYC-259/package_install](https://github.com/2025-PSYC-259/package_install).
+- Navigate to [https://github.com/2026-PSYC-259/r_package_setup](https://github.com/2026-PSYC-259/r_package_setup).
 - Click "fork". This will make a fork of the repository under your own account.
 - In your repository, click "Code" and then "Open with GitHub Desktop"
 - This should open up the GitHub Desktop Client. From that application, choose a  non-cloud location on your local machine to store the cloned repository. A good place would be User/Documents/Github.
