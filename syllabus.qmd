@@ -46,8 +46,6 @@ format:
 
 Most quantitative courses (importantly) focus on the final steps of data analysis---conducting and understanding statistical tests. However, much of the work in data science is taking raw data, often from multiple, incompatible sources, and processing those data into a usable form. This course will emphasize the importance of robust, documented, and automated workflows for processing data to save time, reduce errors, improve reproducibility, and facilitate collaboration among multiple researchers. We will also spend time on data visualization and communication---an important part of creating, checking, and collaborating on data workflows. We will use the R programming language, Github, and Quarto to work through examples, but the focus is on concepts/best practices that can be applied to any software or programming language. The course is open to students who have little programming experience or experience with R. The goal is for students at all levels of programming experience to set goals to improve their data science skills. 
 
-# Course Objectives
-
 The goals of this course are for you to critically analyze and improve your data analysis workflows. Implementing robust, automated procedures for handling data will allow you to:
 
 - Foster open science through increased transparency, reproducibility, and easier data sharing
@@ -64,11 +62,7 @@ The goals of this course are for you to critically analyze and improve your data
 - PDFs of other course readings are linked from the [schedule](schedule.qmd) and lectures
 - Other helpful [resources](resources.qmd) are compiled for your future reference.
 
-# Course Policies
-
-Keep an eye on this course [website](index.qmd) for updates to the syllabus and materials. We will communicate changes through email and/or Canvas announcements. 
-
-## Assignments and Grading
+# Assignments and Grading
 
 Grading for the class is S/NC. Your grade will be based on the following:
 
@@ -95,6 +89,10 @@ You should choose a current or past data analysis project that you have worked w
 ### Final Project 
 
 In your final project, you will improve the data workflow that you chose using skills learned in this class. Your final project should be shared with the instructor and TA through an online repository (such as Github, OSF, or Code Ocean) and allow your end-to-end data workflow to be reproduced (e.g., include raw data files, functions that implement processing steps, etc.). You can use whatever programming languages are necessary (it doesn't need to just be in R), but you should consult with the instructor if R will not be used to ensure that the instructor can run your code (or alternatively, that you demonstrate your workflow to the instructor). Your project should be a report, either to demonstrate exploratory analyses or to communicate the results, that is written in Quarto and contains visualizations written in R. 
+
+# Course Policies
+
+Keep an eye on this course [website](index.qmd) for updates to the syllabus and materials. We will communicate changes through email and/or Canvas announcements. 
 
 ## Attendance
 
