@@ -27,6 +27,7 @@ Read before class: *R4DS* [Introduction](https://r4ds.hadley.nz/intro)
 - Software setup
 - Introduction to Github
 - [Instructions to set up R, RStudio, git, and Github](resources/Setup.qmd)
+- [GitHub repository for packages](https://github.com/2026-PSYC-259/1_package_setup)
 
 ## `r advdate(wed, 2)`: [File Organization and Workflow](lectures/2Importing.qmd)
 Read before class: *R4DS* [Workflow Basics](https://r4ds.hadley.nz/workflow-basics), [Scripts and projects](https://r4ds.hadley.nz/workflow-scripts), and [Data import](https://r4ds.hadley.nz/data-import)
@@ -34,10 +35,7 @@ Read before class: *R4DS* [Workflow Basics](https://r4ds.hadley.nz/workflow-basi
 - File organization 
 - Version control
 - *SKILLS:* R language basics (variables, assignment, comments, calling functions), file import/export
-
-<!-- - [Flipbook tutorial](https://psych-259-data-science-2022.github.io/259-langbasics-importing/#1) -->
-<!-- - [Github project link](https://github.com/psych-259-data-science-2022/259-langbasics-importing) -->
-<!-- - [Github homework link](https://github.com/psych-259-data-science-2022/259-langbasics-importing-hw) -->
+- [Github project link](https://github.com/2026-PSYC-259/2-fileorg-importing)
 
 ##  `r advdate(wed, 3)`: [Data Transformations](lectures/3DataTransformations.qmd)
 Read before class: *R4DS* [Data transformation](https://r4ds.hadley.nz/data-transform), [Numbers](https://r4ds.hadley.nz/numbers), and [Strings](https://r4ds.hadley.nz/strings)
@@ -45,14 +43,8 @@ Read before class: *R4DS* [Data transformation](https://r4ds.hadley.nz/data-tran
 - Basic data types (numbers, strings)
 - Variable naming
 - *SKILLS:* dplyr data wrangling, logical statements, strings
-
+- [Github project link](https://github.com/2026-PSYC-259/3-data-transformations)
 <!-- *OTHER READINGS:* Mistakes article (Kovacs et al., 2021) -->
-
-<!-- *GitHub Project Links:* -->
-
-<!-- - [Flipbook tutorial](https://psych-259-data-science-2022.github.io/259-data-transformations/#1) -->
-<!-- - [Github project link](https://github.com/psych-259-data-science-2022/259-data-transformations) -->
-<!-- - [Github homework link](https://github.com/psych-259-data-science-2022/259-data-transformations-hw) -->
 
 ##  `r advdate(wed, 4)`: [Data Structure](lectures/4DataStructure.qmd)
 Read before class: *R4DS* [Tidy data](https://r4ds.hadley.nz/data-tidy), [Factors](https://r4ds.hadley.nz/factors), and [Dates](https://r4ds.hadley.nz/datetimes)
@@ -60,49 +52,37 @@ Read before class: *R4DS* [Tidy data](https://r4ds.hadley.nz/data-tidy), [Factor
 - Tidy data (observations/cases)
 - More advanced data types (factors, dates, vectors, lists)
 - *SKILLS:* More data wrangling, factors, dates
+- [Github project link](https://github.com/2026-PSYC-259/4-data-structure)
 
-##  `r advdate(wed, 5)`: [Workflow Critique Presentations](assignments/WorkflowCritique.qmd)
-
-<!-- *GitHub Project Links:* -->
-
-<!-- - [Flipbook tutorial](https://psych-259-data-science-2022.github.io/259-data-structure/#1) -->
-<!-- - [Github project link](https://github.com/psych-259-data-science-2022/259-data-structure) -->
-<!-- - [Github homework link](https://github.com/psych-259-data-science-2022/259-data-structure-hw) -->
-
-##  `r advdate(wed, 6)`: [Automation: Functions and Iteration](lectures/5Automation.qmd)
+##  `r advdate(wed, 5)`: [Automation: Functions and Iteration](lectures/5Automation.qmd)
 Read before class: *R4DS* [Functions](https://r4ds.hadley.nz/functions), [Vectors](https://r4ds.had.co.nz/vectors.html) and [Iteration](https://r4ds.hadley.nz/iteration)
 
 - Finding new packages/APIs vs. writing your own functions
 - Automating your analyses
 - Writing more efficient code
 - *SKILLS:* Writing custom functions, iteration (map, for loops)
-
+- [Github project link](https://github.com/2026-PSYC-259/5-automation-functions)
 <!-- *OTHER READINGS:* Minimizing mistakes article (Rouder et al., 2019) -->
 
-<!-- *GitHub Project Links:* -->
+##  `r advdate(wed, 6)`: [Workflow Critique Presentations](assignments/WorkflowCritique.qmd)
 
-<!-- - [Automation](https://github.com/psych-259-data-science-2022/259-automation) -->
-
-##  `r advdate(wed, 7)`: [Exploratory Data Analysis](lectures/6EDA.qmd)
+##  `r advdate(wed, 7)`: [Exploratory Data Analysis](lectures/7EDA.qmd)
 Read before class: *R4DS* [Data visualization](https://r4ds.hadley.nz/data-visualize), [Layers](https://r4ds.hadley.nz/layers) and [Exporatory data analysis](https://r4ds.hadley.nz/eda)
 
 - Data validation
 - Automating visualizations 
 - *SKILLS:* Basic visualizations with ggplot2
+- [Github project link](https://github.com/2026-PSYC-259/7-exploratory-data-analysis)
 
-
-<!-- *GitHub Project Links:* -->
-
-<!-- - [Visualization and EDA](https://github.com/psych-259-data-science-2022/259-exploratory-data-analysis) -->
-<!-- - [Integrating skills homework](https://github.com/psych-259-data-science-2022/259-integrating-skills-hw) -->
-
-##  `r advdate(wed, 8)`: [Data Sharing and Reproducibility](lectures/7DataSharing.qmd)
+##  `r advdate(wed, 8)`: [Data Sharing and Reproducibility](lectures/8DataSharing.qmd)
 Read before class: *R4DS* [Quarto](https://r4ds.hadley.nz/quarto) and [Quarto formats](https://r4ds.hadley.nz/quarto-formats)
 
 - Reuse-minded project management
 - Reproducible reports (Quarto vs. RMarkdown)
 - Preserving programming environment and analyses
-- *SKILLS:* R Markdown, package control
+- *SKILLS:* Quarto, package control
+- [Github project link](https://github.com/2026-PSYC-259/8-reproducibility-quarto)
+- [Repository for course site](https://github.com/2026-PSYC-259/course_site) (written in Quarto)
 
 <!-- *OTHER READINGS:* Transparency in psychological science (Klein et al., 2018) -->
 
@@ -111,16 +91,15 @@ Read before class: *R4DS* [Quarto](https://r4ds.hadley.nz/quarto) and [Quarto fo
 <!-- - [RMarkdown](https://github.com/psych-259-data-science-2022/259-rmarkdown) -->
 <!-- - [RMarkdown homework](https://github.com/psych-259-data-science-2022/259-rmarkdown-hw) -->
 
-##  `r advdate(wed, 9)`: [Visualization](lectures/8Visualization.qmd)
+##  `r advdate(wed, 9)`: [Visualization and Final Project Presentations (Part 1)](lectures/9Visualization.qmd)
 Read before class: [Chartjunk](https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=00040Z) from (Tufte 1990; 2001; 2006) and *R4DS* [Graphics for communication](https://r4ds.hadley.nz/communication)
 
 - Communicating through graphical styles
 - Interactive plots for data exploration
 - *SKILLS:* ggplot and extensions
+- [Github project link](https://github.com/2026-PSYC-259/9-visualization-communication)
+- First set of [Final Project Presentations](assignments/FinalProject.qmd)
 
+##  `r advdate(wed, 10)`: [Visualization and Final Project Presentations (Part 2)](lectures/8Visualization.qmd)
 
-<!-- *GitHub Project Links:* -->
-
-<!-- - [Visualization](https://github.com/psych-259-data-science-2022/259-visualization-communication) -->
-
-##  `r advdate(wed, 10)`: [Final Project Presentations](assignments/FinalProject.qmd)
+- Second set of [Final Project Presentations](assignments/FinalProject.qmd)

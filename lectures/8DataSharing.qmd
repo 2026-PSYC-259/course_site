@@ -1,5 +1,6 @@
 ---
 title: "Week 8"
-subtitle: Exploratory Data Analysis
+subtitle: Data Sharing and Reproducibility
 page-navigation: true
 ---
+

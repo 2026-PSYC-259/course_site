@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Read before class: R4DS Introduction\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github"
+    "text": "Read before class: R4DS Introduction\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github\nGitHub repository for packages"
   },
   {
     "objectID": "schedule.html#week-01-0106-course-goals-and-setup",
@@ -285,7 +285,7 @@
     "href": "lectures/1GoalsSetup.html#github-practice",
     "title": "Week 1",
     "section": "GitHub Practice",
-    "text": "GitHub Practice\nIf you have git, a GitHub account, and the GitHub Desktop Client, let’s try to fork a repository to your own account.\n\nNavigate to https://github.com/2026-PSYC-259/r_package_setup.\nClick “fork”. This will make a fork of the repository under your own account.\nIn your repository, click “Code” and then “Open with GitHub Desktop”\nThis should open up the GitHub Desktop Client. From that application, choose a non-cloud location on your local machine to store the cloned repository. A good place would be User/Documents/Github.\nUse GitHub to jump to the directory (or navigate through Finder/Explore) and then open the project.\nTry changing the package_install.R file and saving the change. You should now see that change registered in GitHub Desktop.\nIf you want, you can commit the change with a message and push it back to the origin. Now it will be saved in your GitHub repository in the cloud.",
+    "text": "GitHub Practice\nIf you have git, a GitHub account, and the GitHub Desktop Client, let’s try to fork a repository to your own account.\n\nNavigate to https://github.com/2026-PSYC-259/1_package_setup.\nClick “fork”. This will make a fork of the repository under your own account.\nIn your repository, click “Code” and then “Open with GitHub Desktop”\nThis should open up the GitHub Desktop Client. From that application, choose a non-cloud location on your local machine to store the cloned repository. A good place would be User/Documents/Github.\nUse GitHub to jump to the directory (or navigate through Finder/Explore) and then open the project.\nTry changing the package_install.R file and saving the change. You should now see that change registered in GitHub Desktop.\nIf you want, you can commit the change with a message and push it back to the origin. Now it will be saved in your GitHub repository in the cloud.",
     "crumbs": [
       "Lectures",
       "Foundations",
@@ -364,28 +364,28 @@
     "href": "schedule.html#week-01-0928-course-goals-and-setup",
     "title": "Schedule",
     "section": "",
-    "text": "Read before class: R4DS Introduction\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github"
+    "text": "Read before class: R4DS Introduction\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github\nGitHub repository for packages"
   },
   {
     "objectID": "schedule.html#week-02-1005-file-organization-and-workflow",
     "href": "schedule.html#week-02-1005-file-organization-and-workflow",
     "title": "Schedule",
     "section": "Week 02, 10/05: File Organization and Workflow",
-    "text": "Week 02, 10/05: File Organization and Workflow\nRead before class: R4DS Workflow Basics, Scripts and projects, and Data import\n\nFile organization\nVersion control\nSKILLS: R language basics (variables, assignment, comments, calling functions), file import/export"
+    "text": "Week 02, 10/05: File Organization and Workflow\nRead before class: R4DS Workflow Basics, Scripts and projects, and Data import\n\nFile organization\nVersion control\nSKILLS: R language basics (variables, assignment, comments, calling functions), file import/export\nGithub project link"
   },
   {
     "objectID": "schedule.html#week-03-1012-data-transformations",
     "href": "schedule.html#week-03-1012-data-transformations",
     "title": "Schedule",
     "section": "Week 03, 10/12: Data Transformations",
-    "text": "Week 03, 10/12: Data Transformations\nRead before class: R4DS Data transformation, Numbers, and Strings\n\nBasic data types (numbers, strings)\nVariable naming\nSKILLS: dplyr data wrangling, logical statements, strings"
+    "text": "Week 03, 10/12: Data Transformations\nRead before class: R4DS Data transformation, Numbers, and Strings\n\nBasic data types (numbers, strings)\nVariable naming\nSKILLS: dplyr data wrangling, logical statements, strings\nGithub project link"
   },
   {
     "objectID": "schedule.html#week-04-1019-data-structure",
     "href": "schedule.html#week-04-1019-data-structure",
     "title": "Schedule",
     "section": "Week 04, 10/19: Data Structure",
-    "text": "Week 04, 10/19: Data Structure\nRead before class: R4DS Tidy data, Factors, and Dates\n\nTidy data (observations/cases)\nMore advanced data types (factors, dates, vectors, lists)\nSKILLS: More data wrangling, factors, dates"
+    "text": "Week 04, 10/19: Data Structure\nRead before class: R4DS Tidy data, Factors, and Dates\n\nTidy data (observations/cases)\nMore advanced data types (factors, dates, vectors, lists)\nSKILLS: More data wrangling, factors, dates\nGithub project link"
   },
   {
     "objectID": "schedule.html#week-05-1026-workflow-critique-presentations",
@@ -406,14 +406,14 @@
     "href": "schedule.html#week-07-1109-exploratory-data-analysis",
     "title": "Schedule",
     "section": "Week 07, 11/09: Exploratory Data Analysis",
-    "text": "Week 07, 11/09: Exploratory Data Analysis\nRead before class: R4DS Data visualization, Layers and Exporatory data analysis\n\nData validation\nAutomating visualizations\nSKILLS: Basic visualizations with ggplot2"
+    "text": "Week 07, 11/09: Exploratory Data Analysis\nRead before class: R4DS Data visualization, Layers and Exporatory data analysis\n\nData validation\nAutomating visualizations\nSKILLS: Basic visualizations with ggplot2\nGithub project link"
   },
   {
     "objectID": "schedule.html#week-08-1116-data-sharing-and-reproducibility",
     "href": "schedule.html#week-08-1116-data-sharing-and-reproducibility",
     "title": "Schedule",
     "section": "Week 08, 11/16: Data Sharing and Reproducibility",
-    "text": "Week 08, 11/16: Data Sharing and Reproducibility\nRead before class: R4DS Quarto and Quarto formats\n\nReuse-minded project management\nReproducible reports (Quarto vs. RMarkdown)\nPreserving programming environment and analyses\nSKILLS: R Markdown, package control"
+    "text": "Week 08, 11/16: Data Sharing and Reproducibility\nRead before class: R4DS Quarto and Quarto formats\n\nReuse-minded project management\nReproducible reports (Quarto vs. RMarkdown)\nPreserving programming environment and analyses\nSKILLS: Quarto, package control\nGithub project link\nRepository for course site (written in Quarto)"
   },
   {
     "objectID": "schedule.html#week-09-1123-visualization",
@@ -428,5 +428,33 @@
     "title": "Schedule",
     "section": "Week 10, 11/30: Final Project Presentations",
     "text": "Week 10, 11/30: Final Project Presentations"
+  },
+  {
+    "objectID": "schedule.html#week-05-1026-automation-functions-and-iteration",
+    "href": "schedule.html#week-05-1026-automation-functions-and-iteration",
+    "title": "Schedule",
+    "section": "Week 05, 10/26: Automation: Functions and Iteration",
+    "text": "Week 05, 10/26: Automation: Functions and Iteration\nRead before class: R4DS Functions, Vectors and Iteration\n\nFinding new packages/APIs vs. writing your own functions\nAutomating your analyses\nWriting more efficient code\nSKILLS: Writing custom functions, iteration (map, for loops)\nGithub project link"
+  },
+  {
+    "objectID": "schedule.html#week-06-1102-workflow-critique-presentations",
+    "href": "schedule.html#week-06-1102-workflow-critique-presentations",
+    "title": "Schedule",
+    "section": "Week 06, 11/02: Workflow Critique Presentations",
+    "text": "Week 06, 11/02: Workflow Critique Presentations"
+  },
+  {
+    "objectID": "schedule.html#week-09-1123-visualization-and-final-project-presentations-part-1",
+    "href": "schedule.html#week-09-1123-visualization-and-final-project-presentations-part-1",
+    "title": "Schedule",
+    "section": "Week 09, 11/23: Visualization and Final Project Presentations (Part 1)",
+    "text": "Week 09, 11/23: Visualization and Final Project Presentations (Part 1)\nRead before class: Chartjunk from (Tufte 1990; 2001; 2006) and R4DS Graphics for communication\n\nCommunicating through graphical styles\nInteractive plots for data exploration\nSKILLS: ggplot and extensions\nGithub project link\nFirst set of Final Project Presentations"
+  },
+  {
+    "objectID": "schedule.html#week-10-1130-visualization-and-final-project-presentations-part-2",
+    "href": "schedule.html#week-10-1130-visualization-and-final-project-presentations-part-2",
+    "title": "Schedule",
+    "section": "Week 10, 11/30: Visualization and Final Project Presentations (Part 2)",
+    "text": "Week 10, 11/30: Visualization and Final Project Presentations (Part 2)\n\nSecond set of Final Project Presentations"
   }
 ]
