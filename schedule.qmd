@@ -64,7 +64,7 @@ Read before class: *R4DS* [Functions](https://r4ds.hadley.nz/functions), [Vector
 - [Github project link](https://github.com/2026-PSYC-259/5-automation-functions)
 <!-- *OTHER READINGS:* Minimizing mistakes article (Rouder et al., 2019) -->
 
-##  `r advdate(wed, 6)`: [Workflow Critique Presentations](assignments/WorkflowCritique.qmd)
+##  `r advdate(wed, 6)`: [Workflow Critique Presentations](assignments/6WorkflowCritique.qmd)
 
 ##  `r advdate(wed, 7)`: [Exploratory Data Analysis](lectures/7EDA.qmd)
 Read before class: *R4DS* [Data visualization](https://r4ds.hadley.nz/data-visualize), [Layers](https://r4ds.hadley.nz/layers) and [Exporatory data analysis](https://r4ds.hadley.nz/eda)
@@ -98,8 +98,8 @@ Read before class: [Chartjunk](https://www.edwardtufte.com/bboard/q-and-a-fetch-
 - Interactive plots for data exploration
 - *SKILLS:* ggplot and extensions
 - [Github project link](https://github.com/2026-PSYC-259/9-visualization-communication)
-- First set of [Final Project Presentations](assignments/FinalProject.qmd)
+- First set of [Final Project Presentations](assignments/10FinalProject.qmd)
 
-##  `r advdate(wed, 10)`: [Visualization and Final Project Presentations (Part 2)](lectures/8Visualization.qmd)
+##  `r advdate(wed, 10)`: [Visualization and Final Project Presentations (Part 2)](lectures/9Visualization.qmd)
 
-- Second set of [Final Project Presentations](assignments/FinalProject.qmd)
+- Second set of [Final Project Presentations](assignments/10FinalProject.qmd)

@@ -7,359 +7,6 @@
     "text": "Read before class: R4DS Introduction\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github\nGitHub repository for packages"
   },
   {
-    "objectID": "schedule.html#week-01-0106-course-goals-and-setup",
-    "href": "schedule.html#week-01-0106-course-goals-and-setup",
-    "title": "Schedule",
-    "section": "",
-    "text": "Read before class: R4DS Introduction\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github"
-  },
-  {
-    "objectID": "schedule.html#week-02-0113-file-organization-and-workflow",
-    "href": "schedule.html#week-02-0113-file-organization-and-workflow",
-    "title": "Schedule",
-    "section": "Week 02, 01/13: File Organization and Workflow",
-    "text": "Week 02, 01/13: File Organization and Workflow\nRead before class: R4DS Workflow Basics, Scripts and projects, and Data import\n\nFile organization\nVersion control\nSKILLS: R language basics (variables, assignment, comments, calling functions), file import/export"
-  },
-  {
-    "objectID": "schedule.html#week-03-0120-no-class---mlk-day",
-    "href": "schedule.html#week-03-0120-no-class---mlk-day",
-    "title": "Schedule",
-    "section": "Week 03, 01/20: NO CLASS - MLK DAY",
-    "text": "Week 03, 01/20: NO CLASS - MLK DAY"
-  },
-  {
-    "objectID": "schedule.html#week-04-0127-data-transformations",
-    "href": "schedule.html#week-04-0127-data-transformations",
-    "title": "Schedule",
-    "section": "Week 04, 01/27: Data Transformations",
-    "text": "Week 04, 01/27: Data Transformations\nRead before class: R4DS Data transformation, Numbers, and Strings\n\nBasic data types (numbers, strings)\nVariable naming\nSKILLS: dplyr data wrangling, logical statements, strings"
-  },
-  {
-    "objectID": "schedule.html#week-05-0203-data-structure",
-    "href": "schedule.html#week-05-0203-data-structure",
-    "title": "Schedule",
-    "section": "Week 05, 02/03: Data Structure",
-    "text": "Week 05, 02/03: Data Structure\nRead before class: R4DS Tidy data, Factors, and Dates\n\nTidy data (observations/cases)\nMore advanced data types (factors, dates, vectors, lists)\nSKILLS: More data wrangling, factors, dates"
-  },
-  {
-    "objectID": "schedule.html#week-06-0210-automation-functions-and-iteration",
-    "href": "schedule.html#week-06-0210-automation-functions-and-iteration",
-    "title": "Schedule",
-    "section": "Week 06, 02/10: Automation: Functions and Iteration",
-    "text": "Week 06, 02/10: Automation: Functions and Iteration\nRead before class: R4DS Functions, Vectors and Iteration\n\nFinding new packages/APIs vs. writing your own functions\nAutomating your analyses\nWriting more efficient code\nSKILLS: Writing custom functions, iteration (map, for loops)"
-  },
-  {
-    "objectID": "schedule.html#week-07-0217-no-class-presidents-day",
-    "href": "schedule.html#week-07-0217-no-class-presidents-day",
-    "title": "Schedule",
-    "section": "Week 07, 02/17: NO CLASS: PRESIDENTS’ DAY",
-    "text": "Week 07, 02/17: NO CLASS: PRESIDENTS’ DAY"
-  },
-  {
-    "objectID": "schedule.html#week-08-0224-exploratory-data-analysis",
-    "href": "schedule.html#week-08-0224-exploratory-data-analysis",
-    "title": "Schedule",
-    "section": "Week 08, 02/24: Exploratory Data Analysis",
-    "text": "Week 08, 02/24: Exploratory Data Analysis\nRead before class: R4DS Data visualization, Layers and Exporatory data analysis\n\nData validation\nAutomating visualizations\nSKILLS: Basic visualizations with ggplot2"
-  },
-  {
-    "objectID": "schedule.html#week-09-0303-data-sharing-and-reproducibility",
-    "href": "schedule.html#week-09-0303-data-sharing-and-reproducibility",
-    "title": "Schedule",
-    "section": "Week 09, 03/03: Data Sharing and Reproducibility",
-    "text": "Week 09, 03/03: Data Sharing and Reproducibility\nRead before class: R4DS Quarto and Quarto formats\n\nReuse-minded project management\nReproducible reports (Quarto vs. RMarkdown)\nPreserving programming environment and analyses\nSKILLS: R Markdown, package control"
-  },
-  {
-    "objectID": "schedule.html#week-10-0310-visualization",
-    "href": "schedule.html#week-10-0310-visualization",
-    "title": "Schedule",
-    "section": "Week 10, 03/10: Visualization",
-    "text": "Week 10, 03/10: Visualization\nRead before class: Chartjunk from (Tufte 1990; 2001; 2006) and R4DS Graphics for communication\n\nCommunicating through graphical styles\nInteractive plots for data exploration\nSKILLS: ggplot and extensions"
-  },
-  {
-    "objectID": "lectures/3DataTransformations.html",
-    "href": "lectures/3DataTransformations.html",
-    "title": "Week 3",
-    "section": "",
-    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
-    "crumbs": [
-      "Lectures",
-      "Processing",
-      "3: Data Transformations"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "resources/Setup.html",
-    "href": "resources/Setup.html",
-    "title": "Setting up your coding environment",
-    "section": "",
-    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from Happy Git.\n\n\nInstall a pre-compiled binary of R for your operating system from CRAN. Make sure you pick the right version for Apple silicon (M1, M2, etc.) versus Intel Macs.\nInstall RStudio Desktop.\nFor details about checking already-installed software, check these instructions.\n\n\n\nFollow the directions here install git on either Windows or Mac.\nCreate a free GitHub account (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name.\nInstall the GitHub Desktop client.\n\n\n\nFollow the “Hello, World” Tutorial here. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
-  },
-  {
-    "objectID": "resources/Setup.html#setting-up-r-rstudio-git-and-github",
-    "href": "resources/Setup.html#setting-up-r-rstudio-git-and-github",
-    "title": "Setting up your coding environment",
-    "section": "",
-    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from Happy Git.\n\n\nInstall a pre-compiled binary of R for your operating system from CRAN. Make sure you pick the right version for Apple silicon (M1, M2, etc.) versus Intel Macs.\nInstall RStudio Desktop.\nFor details about checking already-installed software, check these instructions.\n\n\n\nFollow the directions here install git on either Windows or Mac.\nCreate a free GitHub account (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name.\nInstall the GitHub Desktop client.\n\n\n\nFollow the “Hello, World” Tutorial here. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
-  },
-  {
-    "objectID": "assignments/WorkflowCritique.html",
-    "href": "assignments/WorkflowCritique.html",
-    "title": "Workflow Critique",
-    "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
-  },
-  {
-    "objectID": "assignments/WorkflowCritique.html#assignment-overview",
-    "href": "assignments/WorkflowCritique.html#assignment-overview",
-    "title": "Workflow Critique",
-    "section": "Assignment Overview",
-    "text": "Assignment Overview\nThe goal of this assignment is to take an existing workflow and critically analyze it with an eye for 1) efficiency, 2) fidelity, and 3) sharing/reproducibility. The project will take the form of an in-class presentation (7-8 minutes). You should choose a current or past data analysis project that you have worked with (or one from your lab or a public repository if you are a new student or don’t have data to work with). You will make changes to this workflow for your final course project, so choose something that will be useful to you! Each student should work on their own assignment (unlike homework, this is not a collaborative project)"
-  },
-  {
-    "objectID": "assignments/WorkflowCritique.html#sections",
-    "href": "assignments/WorkflowCritique.html#sections",
-    "title": "Workflow Critique",
-    "section": "Sections",
-    "text": "Sections\nIn your presentation, you will have two sections: workflow and critique. The workflow section should be briefer (about 2-3 minutes) so that you can focus more on the critique. Avoid spending time describing the project aims/research goals; please keep your focus on the workflow and implementation of the project.\n\nWorkflow\nIn the workflow section, describe the end-to-end workflow of your data analysis project. Provide only enough detail here so that we can understand the critique section. What are sources of raw data, and how are they stored? What steps are needed to combine and/or process the raw data? What research personnel, computing resources, software, and hardware devices are involved in your workflow? What is/are the end product(s) needed for statistical analysis? You don’t have to answer every question, just what helps you explain the critique\n\n\nCritique\nNext, you will take a critical eye to your workflow and discuss: *Efficiency**: Discuss what time-consuming steps in the workflow could be improved with coding (or coding with more automation). What parts of the workflow are iterative and need to be repeated when making changes or correcting errors? *Fidelity**: Discuss where errors in the workflow are most likely to occur and what procedures you might implement to improve the fidelity of data, such as eliminating copy/paste or other manual procedures or implementing formal data checks. How do you track what data are cleaned, and what participants/sessions should be included in final analyses? *Sharing/reproducibility**: Examine how an outsider might view the project. How well are the files organized and how well documented are the procedures? Would someone be able to reproduce the analyses? If not, what steps could be taken to make this possible (e.g., coding the analyses rather than using a drop-down menu)?"
-  },
-  {
-    "objectID": "assignments/WorkflowCritique.html#due-date",
-    "href": "assignments/WorkflowCritique.html#due-date",
-    "title": "Workflow Critique",
-    "section": "Due Date",
-    "text": "Due Date\nYou will give your presentation in class during Week 5, 6, or 8. Regardless of your presentation date, you should turn in your slides to John on 2/02/2025 by 5pm. Export your slides as a PDF with file name “Lastname_critique.pdf” to send to John by email."
-  },
-  {
-    "objectID": "assignments/DataTransformationsHomework.html",
-    "href": "assignments/DataTransformationsHomework.html",
-    "title": "Data Transformations",
-    "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
-  },
-  {
-    "objectID": "assignments/IntegratingSkillsHomework.html",
-    "href": "assignments/IntegratingSkillsHomework.html",
-    "title": "Integrating Skills",
-    "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
-  },
-  {
-    "objectID": "assignments/FinalProject.html",
-    "href": "assignments/FinalProject.html",
-    "title": "Final Project",
-    "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
-  },
-  {
-    "objectID": "assignments/FinalProject.html#assignment-overview",
-    "href": "assignments/FinalProject.html#assignment-overview",
-    "title": "Final Project",
-    "section": "Assignment Overview",
-    "text": "Assignment Overview\nThe goal of this assignment is to take an existing workflow and improve its 1) efficiency, 2) fidelity, and 3) sharing/reproducibility. There are two parts of the project. The first part is a Github repository that tracks changes you made to your project and shows how your new workflow is set up. The second part is a written report that describes the changes you made, why you made them, and what benefits each one should create. This report should use Quarto to illustrate changes you made to code, the examples of error checking and EDA, and figures made from your data. All of the files, including data files, scripts, figures, and the Quarto report, should be stored on the Github repository.\nDue Date. The final project is due on March 17 at 5:00pm. You should make your Github repository public and email the URL of the repository to John. If you prefer to make it private (such is if you have data that should not be shared publicly), you can make a private Github repository and add John as a user."
-  },
-  {
-    "objectID": "assignments/FinalProject.html#github-repository",
-    "href": "assignments/FinalProject.html#github-repository",
-    "title": "Final Project",
-    "section": "Github repository",
-    "text": "Github repository\nBefore you start to make changes to your project, set up a Github repository with your current project files so that we can see the “before”. Because the focus of the course has been on data wrangling and exploratory analysis, your project should contain raw data files, script(s) that im- port and clean the data, and scripts that explore the data and/or check for errors. If you have raw data that contains sensitive information, you can deidentify the data or make a few “fake” data files that have the correct format/structure so that we can understand the project. Please do not share anything publicly on Github that you are not allowed share. Another option is to tell Github to ignore the folder containing raw/sensitive data and share a screenshot with us showing how the raw data are formatted. Or, you can create a private repository and share it directly with the instructors. If in doubt, ask, and we can figure out something that works for your project.\nAs you work on your project and make changes, commit and push the changes to Github so that we can see what you changed. If you’ve already started making changes and they’re not tracked in Github, let us know and we can try to figure out a way to see the “before” version of the project. If your project uses a coding language other than R for data import/cleaning/checking, that’s OK. Let us know in advance so that we can make sure we have a way to see/understand what your project does. No matter what language(s) you use in the project, everyone should use Quarto and R to make the report."
-  },
-  {
-    "objectID": "assignments/FinalProject.html#what-changes-should-you-make",
-    "href": "assignments/FinalProject.html#what-changes-should-you-make",
-    "title": "Final Project",
-    "section": "What changes should you make?",
-    "text": "What changes should you make?\nBased on your self-critique assignment and our feedback, you should make changes to improve the efficiency, fidelity, and sharing/reproducibility of the project. You don’t need to cover these three categories equally. If improving the efficiency is most important to your project, focus on that. Of course, some changes might fall into multiple categories (e.g., automating reading data from a file is more efficient and is less likely to lead to mistakes). Please describe the reasoning behind the changes you chose to make. Your final project should contain at least one example of the following items:\n\nWrote a custom function to reduce code repetition and/or split long scripts into more manageable files\nUsed some form of automation (map, for loop, across, read_csv) to replace repetitive code or manual data entry/copy/paste\nPlotted graphs or created data checks to explore the data\nImproved documentation of the project, file organization, and/or readability of the code\n\nWe don’t expect the final project to be perfect (whatever that means!). It would be impossible to make every change you might want to make in a few weeks. You can, instead, demonstrate in one section of the code how you used automation to improve the workflow, and describe how you might apply a similar technique in other sections of your project. Prioritize making changes that will help your project the most and help you learn skills you want to learn."
-  },
-  {
-    "objectID": "assignments/FinalProject.html#quarto-report",
-    "href": "assignments/FinalProject.html#quarto-report",
-    "title": "Final Project",
-    "section": "Quarto report",
-    "text": "Quarto report\nUse Quarto to prepare a report that summarizes the work you did to improve your project. Because everyone’s changes will be different, you should structure the report in a way that makes sense to you. For each change that you made, please be sure to explain how you did it and why you did it. Make use of Quarto code chunks to illustrate the before and after of a change you made to code (not every change, but changes that are representative of the type of change). You are encouraged to embed figures to illustrate the results of your data checking and exploration. Render your Quarto file as a PDF or HTML so that we can view it easily."
-  },
-  {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "Assignments",
-    "section": "",
-    "text": "Due Date\n\n\n\nTitle\n\n\n\nAssignment Type\n\n\n\n\n\n\n\n\nFriday, January 24, 2025\n\n\nData Importing\n\n\nHomework\n\n\n\n\n\n\nFriday, January 31, 2025\n\n\nData Transformations\n\n\nHomework\n\n\n\n\n\n\nSunday, February 2, 2025\n\n\nWorkflow Critique\n\n\nPresentation\n\n\n\n\n\n\nFriday, February 7, 2025\n\n\nData Transformations\n\n\nHomework\n\n\n\n\n\n\nFriday, February 21, 2025\n\n\nAutomation and Functions\n\n\nHomework\n\n\n\n\n\n\nFriday, February 28, 2025\n\n\nIntegrating Skills\n\n\nHomework\n\n\n\n\n\n\nFriday, March 7, 2025\n\n\nQuarto Reports\n\n\nHomework\n\n\n\n\n\n\nMonday, March 17, 2025\n\n\nFinal Project\n\n\nProject\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "assignments/AutomationHomework.html",
-    "href": "assignments/AutomationHomework.html",
-    "title": "Automation and Functions",
-    "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
-  },
-  {
-    "objectID": "assignments/QuartoHomework.html",
-    "href": "assignments/QuartoHomework.html",
-    "title": "Quarto Reports",
-    "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
-  },
-  {
-    "objectID": "assignments/DataStructureHomework.html",
-    "href": "assignments/DataStructureHomework.html",
-    "title": "Data Transformations",
-    "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
-  },
-  {
-    "objectID": "assignments/ImportHomework.html",
-    "href": "assignments/ImportHomework.html",
-    "title": "Data Importing",
-    "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
-  },
-  {
-    "objectID": "resources/Materials.html",
-    "href": "resources/Materials.html",
-    "title": "Books and websites",
-    "section": "",
-    "text": "RStudio cheatsheets for base R, data import, ggplot, R Markdown, and other packages.\nSTAT 545, another good, free textbook on data wrangling and exploration\nHappy Git with R, for all of your Github-Git-R-RStudio needs\nR Markdown: The Definitive Guide\nThe Science of Visual Data Communication article"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PSYC 259: Data Science",
-    "section": "",
-    "text": "The 80/20 rule is the idea that data scientists spend 80% of the time cleaning/preparing the data but only 20% of the time actually running analyses. It makes sense. Most interesting data sets are complicated, messy, unwieldy, and full of mistakes. A model is only as good as the data that go into it, so a careful data scientist aims to simplify, clean, and correct a dataset into something more manageable. Since Psychology PhD students take a lot of classes about modeling—the 20%—this one class aims to work on the remaining 80%.\n\n\n\nAdapted from R for Data Science\n\n\nIn a nutshell, this means becoming better at programming. As data cleaning and visualization become easier through automation and more efficient coding, you gain insights about your data, catch mistakes more easily, and avoid tedious tasks (CTRLC and CTRLV). No one can learn every bit of a programming language (especially not in a quarter). But if you learn enough about what a language can do, you’ll know what to learn in the future when you need it.\nThis course follows along with R for Data Science and makes use of tons of free materials out there in the data science community to help people learn how to wrangle data. Even this website (adapted from Andrew Heiss’s Data Visualization course website) is an example of the kinds of things you can build with the tools we cover in this class (click on “edit this page” below to see how this site was built). Aside from the syllabus, lectures, and assignments, this site also contains resources that might help you as you search for the tools you need for your own applications."
-  },
-  {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Prof. John Franchak\n Psychology 2125\n franchak@ucr.edu\n johnfranchak\n Schedule an appointment\n\n\n\n\n Prof. Holly O’Rourke\n Psychology 3101\n holly.orourke@ucr.edu\n horourke"
-  },
-  {
-    "objectID": "syllabus.html#assignments-and-grading",
-    "href": "syllabus.html#assignments-and-grading",
-    "title": "Syllabus",
-    "section": "Assignments and Grading",
-    "text": "Assignments and Grading\nGrading for the class is S/NC. Your grade will be based on the following:\n\n\n\nComponent\nWeight\n\n\n\n\nParticipation\n20%\n\n\nWeekly assignments\n30%\n\n\nWorkflow critique\n20%\n\n\nFinal project\n30%\n\n\n\n\nParticipation\nYou are expected to attend each class and participate in class discussions. Readings should be completed prior to class so that you are prepared.\n\n\nWeekly Assignments\nWe will assign short practical assignments after most weeks of class. These exercises will develop your skills in R programming and other concepts that we discuss. You are allowed to work in groups of 2-3 students to complete these exercises if you would like, but each student should turn in their own assignment. Please indicate in the top of your assignment the names of the students you worked with. Some class time will be given so that you can start work on the assignment with the help of the instructors.\n\n\nWorkflow Self-Critique\nYou should choose a current or past data analysis project that you have worked with (or one from your lab if you are a newer student). In a class presentation during week 5, 6 or 8, you will describe the end-to-end workflow of your data. What are sources of raw data? How are those sources combined and/or processed? What research personnel, computing resources, software, and hardware devices are involved? What is the end product needed for statistical analysis? Next, you will take a critical eye to your workflow and identify 1) Where are errors most likely to occur, 2) What time-consuming steps could be automated, and 3) how your workflow could be made more transparent and reproducible.\n\n\nFinal Project\nIn your final project, you will improve the data workflow that you chose using skills learned in this class. Your final project should be shared with the instructor and TA through an online repository (such as Github, OSF, or Code Ocean) and allow your end-to-end data workflow to be reproduced (e.g., include raw data files, functions that implement processing steps, etc.). You can use whatever programming languages are necessary (it doesn’t need to just be in R), but you should consult with the instructor if R will not be used to ensure that the instructor can run your code (or alternatively, that you demonstrate your workflow to the instructor). Your project should be a report, either to demonstrate exploratory analyses or to communicate the results, that is written in Quarto and contains visualizations written in R."
-  },
-  {
-    "objectID": "syllabus.html#attendance",
-    "href": "syllabus.html#attendance",
-    "title": "Syllabus",
-    "section": "Attendance",
-    "text": "Attendance\nIn the event of absences due to illness or family obligations, please contact the instructors immediately so that we can make arrangements. Everyone is in a different situation, so we will always work with you to figure out a way to handle disruptions to learning."
-  },
-  {
-    "objectID": "lectures/1GoalsSetup.html",
-    "href": "lectures/1GoalsSetup.html",
-    "title": "Week 1",
-    "section": "",
-    "text": "Warning\n\n\n\nDid you set up R, RStudio, git, and GitHub? If not, follow the instructions here.\nDownload Week 1 Slides",
-    "crumbs": [
-      "Lectures",
-      "Foundations",
-      "1: Course Goals and Setup"
-    ]
-  },
-  {
-    "objectID": "lectures/1GoalsSetup.html#lecture-1-outline",
-    "href": "lectures/1GoalsSetup.html#lecture-1-outline",
-    "title": "Week 1",
-    "section": "Lecture 1 Outline",
-    "text": "Lecture 1 Outline\n\nIntroductions\nCourse overview\nWorkflow examples\nLogistics\nCourse focus\nSoftware setup",
-    "crumbs": [
-      "Lectures",
-      "Foundations",
-      "1: Course Goals and Setup"
-    ]
-  },
-  {
-    "objectID": "lectures/1GoalsSetup.html#github-practice",
-    "href": "lectures/1GoalsSetup.html#github-practice",
-    "title": "Week 1",
-    "section": "GitHub Practice",
-    "text": "GitHub Practice\nIf you have git, a GitHub account, and the GitHub Desktop Client, let’s try to fork a repository to your own account.\n\nNavigate to https://github.com/2026-PSYC-259/1_package_setup.\nClick “fork”. This will make a fork of the repository under your own account.\nIn your repository, click “Code” and then “Open with GitHub Desktop”\nThis should open up the GitHub Desktop Client. From that application, choose a non-cloud location on your local machine to store the cloned repository. A good place would be User/Documents/Github.\nUse GitHub to jump to the directory (or navigate through Finder/Explore) and then open the project.\nTry changing the package_install.R file and saving the change. You should now see that change registered in GitHub Desktop.\nIf you want, you can commit the change with a message and push it back to the origin. Now it will be saved in your GitHub repository in the cloud.",
-    "crumbs": [
-      "Lectures",
-      "Foundations",
-      "1: Course Goals and Setup"
-    ]
-  },
-  {
-    "objectID": "lectures/5Automation.html",
-    "href": "lectures/5Automation.html",
-    "title": "Week 6",
-    "section": "",
-    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
-    "crumbs": [
-      "Lectures",
-      "Efficiency",
-      "5: Automation: Functions and Iteration"
-    ]
-  },
-  {
-    "objectID": "lectures/lectures.html",
-    "href": "lectures/lectures.html",
-    "title": "Lectures",
-    "section": "",
-    "text": "All of the lecture content—slides, links to GitHub repositories, in-class examples—are here. Use the navigation panel on the left to jump to each week. The course is organized in four sections:\n\nFoundations focuses on the big picture themes and then the nitty-gritty beginnings of programming in R and importing data.\nProcessing is about how to transform, shape, convert, and organize the data once it’s in R.\nEfficiency focuses on how to automate tasks with loops and functions, allowing you to more easily explore your data.\nCommunication is about using Quarto and ggplot to share reports and figures transparently.",
-    "crumbs": [
-      "Lectures",
-      "Navigation",
-      "Lectures"
-    ]
-  },
-  {
-    "objectID": "lectures/2Importing.html",
-    "href": "lectures/2Importing.html",
-    "title": "Week 2",
-    "section": "",
-    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
-    "crumbs": [
-      "Lectures",
-      "Foundations",
-      "2: R Language Basics and Importing"
-    ]
-  },
-  {
-    "objectID": "lectures/2Importing.html#slides",
-    "href": "lectures/2Importing.html#slides",
-    "title": "Week 2",
-    "section": "",
-    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
-    "crumbs": [
-      "Lectures",
-      "Foundations",
-      "2: R Language Basics and Importing"
-    ]
-  },
-  {
-    "objectID": "lectures/2Importing.html#practice",
-    "href": "lectures/2Importing.html#practice",
-    "title": "Week 2",
-    "section": "Practice",
-    "text": "Practice\nThe webr block below reads one of the vocab files from a url (read_csv is just as happy to read a csv from the internet as from your local file system.) head prints the first few lines so that you can see it worked (ignore the “curl package not installed, falling back to using url()” error, it’s just because we are doing this in a strange R environment in the browser rather than on your computer.)\nTry some different read_csv options by editing the code below:\n\nUse custom column names when reading in the data.\nRead in the data so that all columns are in “character” format. It will say “chr” below each column if they are in character rather than numerical format.\nRead in the data from only 13.5 months on\n\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAfter making your changes, Rerun the code by clicking the  Run Code button. If you want to save the code you wrote, you can click *View R History” in the right panel.",
-    "crumbs": [
-      "Lectures",
-      "Foundations",
-      "2: R Language Basics and Importing"
-    ]
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Title\n\n\n\n\n\n\n\n\nBooks and websites\n\n\n\n\n\n\nSetting up your coding environment\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "schedule.html#week-01-0928-course-goals-and-setup",
     "href": "schedule.html#week-01-0928-course-goals-and-setup",
     "title": "Schedule",
@@ -388,18 +35,18 @@
     "text": "Week 04, 10/19: Data Structure\nRead before class: R4DS Tidy data, Factors, and Dates\n\nTidy data (observations/cases)\nMore advanced data types (factors, dates, vectors, lists)\nSKILLS: More data wrangling, factors, dates\nGithub project link"
   },
   {
-    "objectID": "schedule.html#week-05-1026-workflow-critique-presentations",
-    "href": "schedule.html#week-05-1026-workflow-critique-presentations",
+    "objectID": "schedule.html#week-05-1026-automation-functions-and-iteration",
+    "href": "schedule.html#week-05-1026-automation-functions-and-iteration",
     "title": "Schedule",
-    "section": "Week 05, 10/26: Workflow Critique Presentations",
-    "text": "Week 05, 10/26: Workflow Critique Presentations"
+    "section": "Week 05, 10/26: Automation: Functions and Iteration",
+    "text": "Week 05, 10/26: Automation: Functions and Iteration\nRead before class: R4DS Functions, Vectors and Iteration\n\nFinding new packages/APIs vs. writing your own functions\nAutomating your analyses\nWriting more efficient code\nSKILLS: Writing custom functions, iteration (map, for loops)\nGithub project link"
   },
   {
-    "objectID": "schedule.html#week-06-1102-automation-functions-and-iteration",
-    "href": "schedule.html#week-06-1102-automation-functions-and-iteration",
+    "objectID": "schedule.html#week-06-1102-workflow-critique-presentations",
+    "href": "schedule.html#week-06-1102-workflow-critique-presentations",
     "title": "Schedule",
-    "section": "Week 06, 11/02: Automation: Functions and Iteration",
-    "text": "Week 06, 11/02: Automation: Functions and Iteration\nRead before class: R4DS Functions, Vectors and Iteration\n\nFinding new packages/APIs vs. writing your own functions\nAutomating your analyses\nWriting more efficient code\nSKILLS: Writing custom functions, iteration (map, for loops)"
+    "section": "Week 06, 11/02: Workflow Critique Presentations",
+    "text": "Week 06, 11/02: Workflow Critique Presentations"
   },
   {
     "objectID": "schedule.html#week-07-1109-exploratory-data-analysis",
@@ -416,34 +63,6 @@
     "text": "Week 08, 11/16: Data Sharing and Reproducibility\nRead before class: R4DS Quarto and Quarto formats\n\nReuse-minded project management\nReproducible reports (Quarto vs. RMarkdown)\nPreserving programming environment and analyses\nSKILLS: Quarto, package control\nGithub project link\nRepository for course site (written in Quarto)"
   },
   {
-    "objectID": "schedule.html#week-09-1123-visualization",
-    "href": "schedule.html#week-09-1123-visualization",
-    "title": "Schedule",
-    "section": "Week 09, 11/23: Visualization",
-    "text": "Week 09, 11/23: Visualization\nRead before class: Chartjunk from (Tufte 1990; 2001; 2006) and R4DS Graphics for communication\n\nCommunicating through graphical styles\nInteractive plots for data exploration\nSKILLS: ggplot and extensions"
-  },
-  {
-    "objectID": "schedule.html#week-10-1130-final-project-presentations",
-    "href": "schedule.html#week-10-1130-final-project-presentations",
-    "title": "Schedule",
-    "section": "Week 10, 11/30: Final Project Presentations",
-    "text": "Week 10, 11/30: Final Project Presentations"
-  },
-  {
-    "objectID": "schedule.html#week-05-1026-automation-functions-and-iteration",
-    "href": "schedule.html#week-05-1026-automation-functions-and-iteration",
-    "title": "Schedule",
-    "section": "Week 05, 10/26: Automation: Functions and Iteration",
-    "text": "Week 05, 10/26: Automation: Functions and Iteration\nRead before class: R4DS Functions, Vectors and Iteration\n\nFinding new packages/APIs vs. writing your own functions\nAutomating your analyses\nWriting more efficient code\nSKILLS: Writing custom functions, iteration (map, for loops)\nGithub project link"
-  },
-  {
-    "objectID": "schedule.html#week-06-1102-workflow-critique-presentations",
-    "href": "schedule.html#week-06-1102-workflow-critique-presentations",
-    "title": "Schedule",
-    "section": "Week 06, 11/02: Workflow Critique Presentations",
-    "text": "Week 06, 11/02: Workflow Critique Presentations"
-  },
-  {
     "objectID": "schedule.html#week-09-1123-visualization-and-final-project-presentations-part-1",
     "href": "schedule.html#week-09-1123-visualization-and-final-project-presentations-part-1",
     "title": "Schedule",
@@ -456,5 +75,281 @@
     "title": "Schedule",
     "section": "Week 10, 11/30: Visualization and Final Project Presentations (Part 2)",
     "text": "Week 10, 11/30: Visualization and Final Project Presentations (Part 2)\n\nSecond set of Final Project Presentations"
+  },
+  {
+    "objectID": "lectures/3DataTransformations.html",
+    "href": "lectures/3DataTransformations.html",
+    "title": "Week 3",
+    "section": "",
+    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "crumbs": [
+      "Lectures",
+      "Processing",
+      "Data Transformations"
+    ]
+  },
+  {
+    "objectID": "lectures/2Importing.html",
+    "href": "lectures/2Importing.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "Data Importing"
+    ]
+  },
+  {
+    "objectID": "lectures/2Importing.html#slides",
+    "href": "lectures/2Importing.html#slides",
+    "title": "Week 2",
+    "section": "",
+    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "Data Importing"
+    ]
+  },
+  {
+    "objectID": "lectures/2Importing.html#practice",
+    "href": "lectures/2Importing.html#practice",
+    "title": "Week 2",
+    "section": "Practice",
+    "text": "Practice\nThe webr block below reads one of the vocab files from a url (read_csv is just as happy to read a csv from the internet as from your local file system.) head prints the first few lines so that you can see it worked (ignore the “curl package not installed, falling back to using url()” error, it’s just because we are doing this in a strange R environment in the browser rather than on your computer.)\nTry some different read_csv options by editing the code below:\n\nUse custom column names when reading in the data.\nRead in the data so that all columns are in “character” format. It will say “chr” below each column if they are in character rather than numerical format.\nRead in the data from only 13.5 months on\n\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAfter making your changes, Rerun the code by clicking the  Run Code button. If you want to save the code you wrote, you can click *View R History” in the right panel.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "Data Importing"
+    ]
+  },
+  {
+    "objectID": "lectures/lectures.html",
+    "href": "lectures/lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "All of the lecture content—slides, links to GitHub repositories, in-class examples—are here. Use the navigation panel on the left to jump to each week. The course is organized in four sections:\n\nFoundations focuses on the big picture themes and then the nitty-gritty beginnings of programming in R and importing data.\nProcessing is about how to transform, shape, convert, and organize the data once it’s in R.\nEfficiency focuses on how to automate tasks with loops and functions, allowing you to more easily explore your data.\nCommunication is about using Quarto and ggplot to share reports and figures transparently.",
+    "crumbs": [
+      "Lectures",
+      "Navigation",
+      "Lectures"
+    ]
+  },
+  {
+    "objectID": "lectures/5Automation.html",
+    "href": "lectures/5Automation.html",
+    "title": "Week 6",
+    "section": "",
+    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "crumbs": [
+      "Lectures",
+      "Efficiency",
+      "Automation: Functions and Iteration"
+    ]
+  },
+  {
+    "objectID": "lectures/1GoalsSetup.html",
+    "href": "lectures/1GoalsSetup.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Warning\n\n\n\nDid you set up R, RStudio, git, and GitHub? If not, follow the instructions here.\nDownload Week 1 Slides",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "Course Goals and Setup"
+    ]
+  },
+  {
+    "objectID": "lectures/1GoalsSetup.html#lecture-1-outline",
+    "href": "lectures/1GoalsSetup.html#lecture-1-outline",
+    "title": "Week 1",
+    "section": "Lecture 1 Outline",
+    "text": "Lecture 1 Outline\n\nIntroductions\nCourse overview\nWorkflow examples\nLogistics\nCourse focus\nSoftware setup",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "Course Goals and Setup"
+    ]
+  },
+  {
+    "objectID": "lectures/1GoalsSetup.html#github-practice",
+    "href": "lectures/1GoalsSetup.html#github-practice",
+    "title": "Week 1",
+    "section": "GitHub Practice",
+    "text": "GitHub Practice\nIf you have git, a GitHub account, and the GitHub Desktop Client, let’s try to fork a repository to your own account.\n\nNavigate to https://github.com/2026-PSYC-259/1_package_setup.\nClick “fork”. This will make a fork of the repository under your own account.\nIn your repository, click “Code” and then “Open with GitHub Desktop”\nThis should open up the GitHub Desktop Client. From that application, choose a non-cloud location on your local machine to store the cloned repository. A good place would be User/Documents/Github.\nUse GitHub to jump to the directory (or navigate through Finder/Explore) and then open the project.\nTry changing the package_install.R file and saving the change. You should now see that change registered in GitHub Desktop.\nIf you want, you can commit the change with a message and push it back to the origin. Now it will be saved in your GitHub repository in the cloud.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "Course Goals and Setup"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "resources/Setup.html",
+    "href": "resources/Setup.html",
+    "title": "Setting up your coding environment",
+    "section": "",
+    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from Happy Git.\n\n\nInstall a pre-compiled binary of R for your operating system from CRAN. Make sure you pick the right version for Apple silicon (M1, M2, etc.) versus Intel Macs.\nInstall RStudio Desktop.\nFor details about checking already-installed software, check these instructions.\n\n\n\nFollow the directions here install git on either Windows or Mac.\nCreate a free GitHub account (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name.\nInstall the GitHub Desktop client.\n\n\n\nFollow the “Hello, World” Tutorial here. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
+  },
+  {
+    "objectID": "resources/Setup.html#setting-up-r-rstudio-git-and-github",
+    "href": "resources/Setup.html#setting-up-r-rstudio-git-and-github",
+    "title": "Setting up your coding environment",
+    "section": "",
+    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from Happy Git.\n\n\nInstall a pre-compiled binary of R for your operating system from CRAN. Make sure you pick the right version for Apple silicon (M1, M2, etc.) versus Intel Macs.\nInstall RStudio Desktop.\nFor details about checking already-installed software, check these instructions.\n\n\n\nFollow the directions here install git on either Windows or Mac.\nCreate a free GitHub account (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name.\nInstall the GitHub Desktop client.\n\n\n\nFollow the “Hello, World” Tutorial here. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
+  },
+  {
+    "objectID": "assignments/6WorkflowCritique.html",
+    "href": "assignments/6WorkflowCritique.html",
+    "title": "Workflow Critique",
+    "section": "",
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+  },
+  {
+    "objectID": "assignments/6WorkflowCritique.html#assignment-overview",
+    "href": "assignments/6WorkflowCritique.html#assignment-overview",
+    "title": "Workflow Critique",
+    "section": "Assignment Overview",
+    "text": "Assignment Overview\nThe goal of this assignment is to take an existing workflow and critically analyze it with an eye for 1) efficiency, 2) fidelity, and 3) sharing/reproducibility. The project will take the form of an in-class presentation (7-8 minutes). You should choose a current or past data analysis project that you have worked with (or one from your lab or a public repository if you are a new student or don’t have data to work with). You will make changes to this workflow for your final course project, so choose something that will be useful to you! Each student should work on their own assignment (unlike homework, this is not a collaborative project)"
+  },
+  {
+    "objectID": "assignments/6WorkflowCritique.html#sections",
+    "href": "assignments/6WorkflowCritique.html#sections",
+    "title": "Workflow Critique",
+    "section": "Sections",
+    "text": "Sections\nIn your presentation, you will have two sections: workflow and critique. The workflow section should be briefer (about 2-3 minutes) so that you can focus more on the critique. Avoid spending time describing the project aims/research goals; please keep your focus on the workflow and implementation of the project.\n\nWorkflow\nIn the workflow section, describe the end-to-end workflow of your data analysis project. Provide only enough detail here so that we can understand the critique section. What are sources of raw data, and how are they stored? What steps are needed to combine and/or process the raw data? What research personnel, computing resources, software, and hardware devices are involved in your workflow? What is/are the end product(s) needed for statistical analysis? You don’t have to answer every question, just what helps you explain the critique\n\n\nCritique\nNext, you will take a critical eye to your workflow and discuss: *Efficiency**: Discuss what time-consuming steps in the workflow could be improved with coding (or coding with more automation). What parts of the workflow are iterative and need to be repeated when making changes or correcting errors? *Fidelity**: Discuss where errors in the workflow are most likely to occur and what procedures you might implement to improve the fidelity of data, such as eliminating copy/paste or other manual procedures or implementing formal data checks. How do you track what data are cleaned, and what participants/sessions should be included in final analyses? *Sharing/reproducibility**: Examine how an outsider might view the project. How well are the files organized and how well documented are the procedures? Would someone be able to reproduce the analyses? If not, what steps could be taken to make this possible (e.g., coding the analyses rather than using a drop-down menu)?"
+  },
+  {
+    "objectID": "assignments/6WorkflowCritique.html#due-date",
+    "href": "assignments/6WorkflowCritique.html#due-date",
+    "title": "Workflow Critique",
+    "section": "Due Date",
+    "text": "Due Date\nYou will give your presentation in class during Week 6. You should turn in your slides on Canvas."
+  },
+  {
+    "objectID": "assignments/10FinalProject.html",
+    "href": "assignments/10FinalProject.html",
+    "title": "Final Project",
+    "section": "",
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+  },
+  {
+    "objectID": "assignments/10FinalProject.html#assignment-overview",
+    "href": "assignments/10FinalProject.html#assignment-overview",
+    "title": "Final Project",
+    "section": "Assignment Overview",
+    "text": "Assignment Overview\nThe goal of this assignment is to take an existing workflow and improve its 1) efficiency, 2) fidelity, and 3) sharing/reproducibility. There are two parts of the project. The first part is a Github repository that tracks changes you made to your project and shows how your new workflow is set up. The second part is a written report that describes the changes you made, why you made them, and what benefits each one should create. This report should use Quarto to illustrate changes you made to code, the examples of error checking and EDA, and figures made from your data. All of the files, including data files, scripts, figures, and the Quarto report, should be stored on the Github repository.\nDue Date. You should make your Github repository public and submit the repository link on Canvas. If you prefer to make it private (such is if you have data that should not be shared publicly), you can make a private Github repository and add the instructors as users."
+  },
+  {
+    "objectID": "assignments/10FinalProject.html#github-repository",
+    "href": "assignments/10FinalProject.html#github-repository",
+    "title": "Final Project",
+    "section": "Github repository",
+    "text": "Github repository\nBefore you start to make changes to your project, set up a Github repository with your current project files so that we can see the “before”. Because the focus of the course has been on data wrangling and exploratory analysis, your project should contain raw data files, script(s) that im- port and clean the data, and scripts that explore the data and/or check for errors. If you have raw data that contains sensitive information, you can deidentify the data or make a few “fake” data files that have the correct format/structure so that we can understand the project. Please do not share anything publicly on Github that you are not allowed share. Another option is to tell Github to ignore the folder containing raw/sensitive data and share a screenshot with us showing how the raw data are formatted. Or, you can create a private repository and share it directly with the instructors. If in doubt, ask, and we can figure out something that works for your project.\nAs you work on your project and make changes, commit and push the changes to Github so that we can see what you changed. If you’ve already started making changes and they’re not tracked in Github, let us know and we can try to figure out a way to see the “before” version of the project. If your project uses a coding language other than R for data import/cleaning/checking, that’s OK. Let us know in advance so that we can make sure we have a way to see/understand what your project does. No matter what language(s) you use in the project, everyone should use Quarto and R to make the report."
+  },
+  {
+    "objectID": "assignments/10FinalProject.html#what-changes-should-you-make",
+    "href": "assignments/10FinalProject.html#what-changes-should-you-make",
+    "title": "Final Project",
+    "section": "What changes should you make?",
+    "text": "What changes should you make?\nBased on your self-critique assignment and our feedback, you should make changes to improve the efficiency, fidelity, and sharing/reproducibility of the project. You don’t need to cover these three categories equally. If improving the efficiency is most important to your project, focus on that. Of course, some changes might fall into multiple categories (e.g., automating reading data from a file is more efficient and is less likely to lead to mistakes). Please describe the reasoning behind the changes you chose to make. Your final project should contain at least one example of the following items:\n\nWrote a custom function to reduce code repetition and/or split long scripts into more manageable files\nUsed some form of automation (map, for loop, across, read_csv) to replace repetitive code or manual data entry/copy/paste\nPlotted graphs or created data checks to explore the data\nImproved documentation of the project, file organization, and/or readability of the code\n\nWe don’t expect the final project to be perfect (whatever that means!). It would be impossible to make every change you might want to make in a few weeks. You can, instead, demonstrate in one section of the code how you used automation to improve the workflow, and describe how you might apply a similar technique in other sections of your project. Prioritize making changes that will help your project the most and help you learn skills you want to learn."
+  },
+  {
+    "objectID": "assignments/10FinalProject.html#quarto-report",
+    "href": "assignments/10FinalProject.html#quarto-report",
+    "title": "Final Project",
+    "section": "Quarto report",
+    "text": "Quarto report\nUse Quarto to prepare a report that summarizes the work you did to improve your project. Because everyone’s changes will be different, you should structure the report in a way that makes sense to you. For each change that you made, please be sure to explain how you did it and why you did it. Make use of Quarto code chunks to illustrate the before and after of a change you made to code (not every change, but changes that are representative of the type of change). You are encouraged to embed figures to illustrate the results of your data checking and exploration. Render your Quarto file as a PDF or HTML so that we can view it easily."
+  },
+  {
+    "objectID": "assignments/7IntegratingSkillsHomework.html",
+    "href": "assignments/7IntegratingSkillsHomework.html",
+    "title": "Integrating Skills",
+    "section": "",
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+  },
+  {
+    "objectID": "assignments/4DataStructureHomework.html",
+    "href": "assignments/4DataStructureHomework.html",
+    "title": "Data Transformations",
+    "section": "",
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Due Date\n\n\n\nTitle\n\n\n\nAssignment Type\n\n\n\n\n\n\n\n\nMonday, October 12, 2026\n\n\nData Importing\n\n\nHomework\n\n\n\n\n\n\nMonday, October 19, 2026\n\n\nData Transformations\n\n\nHomework\n\n\n\n\n\n\nMonday, October 26, 2026\n\n\nData Transformations\n\n\nHomework\n\n\n\n\n\n\nMonday, November 2, 2026\n\n\nWorkflow Critique\n\n\nPresentation\n\n\n\n\n\n\nMonday, November 9, 2026\n\n\nAutomation and Functions\n\n\nHomework\n\n\n\n\n\n\nMonday, November 16, 2026\n\n\nIntegrating Skills\n\n\nHomework\n\n\n\n\n\n\nMonday, November 23, 2026\n\n\nQuarto Reports\n\n\nHomework\n\n\n\n\n\n\nMonday, November 30, 2026\n\n\nFinal Project\n\n\nProject\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "assignments/5AutomationHomework.html",
+    "href": "assignments/5AutomationHomework.html",
+    "title": "Automation and Functions",
+    "section": "",
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+  },
+  {
+    "objectID": "assignments/3DataTransformationsHomework.html",
+    "href": "assignments/3DataTransformationsHomework.html",
+    "title": "Data Transformations",
+    "section": "",
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+  },
+  {
+    "objectID": "assignments/8QuartoHomework.html",
+    "href": "assignments/8QuartoHomework.html",
+    "title": "Quarto Reports",
+    "section": "",
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+  },
+  {
+    "objectID": "assignments/2ImportHomework.html",
+    "href": "assignments/2ImportHomework.html",
+    "title": "Data Importing",
+    "section": "",
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+  },
+  {
+    "objectID": "resources/Materials.html",
+    "href": "resources/Materials.html",
+    "title": "Books and websites",
+    "section": "",
+    "text": "RStudio cheatsheets for base R, data import, ggplot, R Markdown, and other packages.\nSTAT 545, another good, free textbook on data wrangling and exploration\nHappy Git with R, for all of your Github-Git-R-RStudio needs\nR Markdown: The Definitive Guide\nThe Science of Visual Data Communication article"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PSYC 259: Data Science",
+    "section": "",
+    "text": "The 80/20 rule is the idea that data scientists spend 80% of the time cleaning/preparing the data but only 20% of the time actually running analyses. It makes sense. Most interesting data sets are complicated, messy, unwieldy, and full of mistakes. A model is only as good as the data that go into it, so a careful data scientist aims to simplify, clean, and correct a dataset into something more manageable. Since Psychology PhD students take a lot of classes about modeling—the 20%—this one class aims to work on the remaining 80%.\n\n\n\nAdapted from R for Data Science\n\n\nIn a nutshell, this means becoming better at programming. As data cleaning and visualization become easier through automation and more efficient coding, you gain insights about your data, catch mistakes more easily, and avoid tedious tasks (CTRLC and CTRLV). No one can learn every bit of a programming language (especially not in a quarter). But if you learn enough about what a language can do, you’ll know what to learn in the future when you need it.\nThis course follows along with R for Data Science and makes use of tons of free materials out there in the data science community to help people learn how to wrangle data. Even this website (adapted from Andrew Heiss’s Data Visualization course website) is an example of the kinds of things you can build with the tools we cover in this class (click on “edit this page” below to see how this site was built). Aside from the syllabus, lectures, and assignments, this site also contains resources that might help you as you search for the tools you need for your own applications."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Prof. John Franchak\n Psychology 2125\n franchak@ucr.edu\n johnfranchak\n Schedule an appointment\n\n\n\n\n Prof. Holly O’Rourke\n Psychology 3101\n holly.orourke@ucr.edu\n horourke"
+  },
+  {
+    "objectID": "syllabus.html#attendance",
+    "href": "syllabus.html#attendance",
+    "title": "Syllabus",
+    "section": "Attendance",
+    "text": "Attendance\nIn the event of absences due to illness or family obligations, please contact the instructors immediately so that we can make arrangements. Everyone is in a different situation, so we will always work with you to figure out a way to handle disruptions to learning."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Title\n\n\n\n\n\n\n\n\nBooks and websites\n\n\n\n\n\n\nSetting up your coding environment\n\n\n\n\n\n\nNo matching items"
   }
 ]

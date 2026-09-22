@@ -15,7 +15,7 @@ website:
   announcement:
     icon: calendar-check
     dismissable: true
-    content: "**Reminder!** All students should fill out the ([Course Introduction Survey)](https://forms.gle/cup9GTRT8BL5UhHq8) before 1/3/24)"
+    content: "**Reminder!** All students should fill out the ([Course Introduction Survey)](https://forms.gle/PbXTf9rn75iWN2L38) before 9/30/26)"
     type: danger
     position: below-navbar
   
@@ -33,28 +33,28 @@ website:
             - lectures/lectures.qmd
         - section: "Foundations"
           contents:
-            - text: "1: Course Goals and Setup"
+            - text: "Course Goals and Setup"
               file: lectures/1GoalsSetup.qmd
-            - text: "2: R Language Basics and Importing"
+            - text: "Data Importing"
               file: lectures/2Importing.qmd
         - section: "Processing"
           contents:
-            - text: "3: Data Transformations"
+            - text: "Data Transformations"
               file: lectures/3DataTransformations.qmd
-            - text: "4: Data Structure"
+            - text: "Data Structure"
               file: lectures/4DataStructure.qmd          
         - section: "Efficiency"
           contents:
-            - text: "5: Automation: Functions and Iteration"
+            - text: "Automation: Functions and Iteration"
               file: lectures/5Automation.qmd
-            - text: "6: Exploratory Data Analysis"
-              file: lectures/6EDA.qmd
+            - text: "Exploratory Data Analysis"
+              file: lectures/7EDA.qmd
         - section: "Communication"
           contents:
-            - text: "7: Sharing and Reproducibility"
-              file: lectures/7DataSharing.qmd
-            - text: "8: Visualization"
-              file: lectures/8Visualization.qmd    
+            - text: "Sharing and Reproducibility"
+              file: lectures/8DataSharing.qmd
+            - text: "Visualization"
+              file: lectures/9Visualization.qmd    
   page-footer:
       left: |
         Content {{< fa brands creative-commons >}} {{< var course.copyright_year >}} by {{< var instructor.name_no_title >}} & {{< var instructor2.name_no_title >}} <br>
