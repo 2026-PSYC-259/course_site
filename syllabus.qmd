@@ -29,6 +29,7 @@ format:
 - [{{< fa university >}}]{.fa-li} {{< var instructor2.office >}}
 - [{{< fa envelope >}}]{.fa-li} <a href='mailto:{{< var instructor2.email >}}'>{{< var instructor2.email >}}</a>
 - [{{< fa brands github >}}]{.fa-li} <a href='https://github.com/{{< var instructor2.github >}}'>{{< var instructor2.github >}}</a>
+- [{{< fa calendar-check >}}]{.fa-li} {{< var instructor2.office_hrs >}}
 :::
 
 ::::
