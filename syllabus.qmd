@@ -96,5 +96,50 @@ Keep an eye on this course [website](index.qmd) for updates to the syllabus and 
 
 ## Attendance
 
-In the event of absences due to illness or family obligations, please contact the instructors immediately so that we can make arrangements. Everyone is in a different situation, so we will always work with you to figure out a way to handle disruptions to learning.
+In the event of absences due to illness or family obligations, please contact the instructors immediately so that we can make arrangements. Everyone is in a different situation, so we will always work with you to figure out a way to handle sustained disruptions to learning. You will be responsible for knowing information (e.g., course material and announcements) discussed in class during any absence. We suggest getting at least two of your classmates’ contact information to determine what you missed during any absence and to obtain complete lecture notes. 
+
+## Withdrawal
+
+If you want to withdraw from the course, you are responsible for meeting UCR’s [deadlines](https://registrar.ucr.edu/calendar).
+
+## Artificial Intelligence (AI)
+
+Generative AI (such as Google Gemini or ChatGPT) can be a potentially useful and powerful information source which can enhance productivity and learning. However, over-reliance or dependence on generative AI can undermine your education, limit opportunities for intellectual growth, and impact your performance in venues like job interviews, meetings, and presentations. **Importantly, for courses in quantitative methods, overreliance on AI for learning statistical coding can result in serious errors in data analysis that could potentially have implications for scientific conclusions up to and including the need to retract published work.** Therefore, this course has been designed to emphasize authentic learning and utilizes assessment methods that reduce the potential usefulness of generative AI in your work. Furthermore, all work submitted in this course must be your own. Although generative AI may be used like any other source of information that supports your work (such as a book, article, video, interview, etc.), it must be properly quoted and cited each time it is used. Failure to properly cite the use of AI in your work will be viewed as a potential academic integrity violation. If you have used generative AI for any part of your problem sets or course project, you must include a statement and citation at the beginning of the document.
+
+## Academic Integrity Policy
+
+Academic honesty is expected of all students in all situations including, but not limited to, examinations, assignments, papers, laboratory work, academic transactions, and records. UCR’s [Academic Integrity policy](https://conduct.ucr.edu/policies/academic-integrity-policies-and-procedures) holds students to a code of conduct with which you should familiarize yourself. This policy specifies a range of sanctions from which faculty can choose when violations occur. All UCR students, including those enrolled in this course, are held to the standards in the policy. For example, any form of dishonesty/lying/fabrications (for instance, falsely claiming you were ill or that a relative passed away to receive an extension on a due date, falsely claiming that you submitted an assignment, falsely claiming internet or computer failure, falsifying doctors’ notes), falsifying records, cheating, plagiarism, inappropriate collaboration, or the facilitation of academic dishonesty will result in disciplinary action. We follow a zero tolerance policy on academic dishonesty. Acts of academic dishonesty could result in grades being withheld for a course or suspension from your academic program. Other potential sanctions may include loss of registration privileges, or disqualification and dismissal.
+
+## Students with Disabilities
+
+Reasonable and appropriate accommodations will be made for students with documented disabilities who have arrangements with the Student Disability Resource Center. Students who feel they will need accommodations in this class but have not registered with the [Student Disability Resource Center (SDRC)](https://sdrc.ucr.edu/) should contact SDRC immediately. The SDRC office is located on the first floor of the Student Services Building. SDRC staff can also be reached at: (951) 827-3861. It is your responsibility to inform us that you require testing accommodations, laboratory accommodations (i.e., for the software portion of the class), note-taking services, interpreting services, or alternative formats within the first week of class. If you require note-taking services, you will only receive notes for class lectures that you have attended or for which you have an excused absence. You will not receive notes for lectures that were missed due to an unexcused absence. 
+
+## Prohibition Against Discrimination, Harassment, and Retaliation
+
+Title IX is a federal law that provides that no person be excluded on the basis of sex from participation in, be denied benefits of, or be subjected to discrimination under any education program or activity.  Both [Title IX and university policy](https://titleix.ucr.edu/) make clear that sexual violence and harassment based on sex is prohibited. An individual who believes they have been subjected to sexual violence or harassment can seek support, including counseling and academic support, from the university.
+
+As mandated reporters, we are obligated to report any information we become aware of regarding alleged acts of sexual discrimination, including sexual violence and dating violence. [UCR Counseling & Psychological Services](https://counseling.ucr.edu/) is available if you wish to discuss any concerns confidentially and privately.
+
+## Policy against Threatening Behavior
+
+Please review UCR policy and procedures regarding disruptive, threatening, or violent individuals on campus [here](https://policyking.ucr.edu/home/policy/6539d1030ad0f868b866376b).
+Students, faculty, staff, and other individuals do not have an unqualified right of access to university grounds, property, or services. Interfering with the peaceful conduct of university-related business or activities or remaining on campus grounds after a request to leave may be considered a crime. All incidents and allegations of violent or threatening conduct by a UCR student (whether on- or off-campus) must be reported to the UCR Police Department and the Dean of Students. If either office determines that the behavior poses or has posed a serious threat to personal safety or to the welfare of the campus, the student will not be permitted to return to campus or reside in any UCR residence hall until an appropriate threat assessment has been completed and, if necessary, conditions for return are imposed. The UCR Police Department, the Dean of Students, and other appropriate offices will coordinate the assessment in light of the relevant circumstances.
+
+## Counseling Services
+
+[UCR Counseling & Psychological Services](https://counseling.ucr.edu/) provides confidential personal counseling and crisis services for students experiencing emotional concerns, difficulties adjusting, and other factors that affect their ability to achieve their academic and personal goals. For more information, call 951-827-5531. For the 24-hour crisis hotline, call 951-827-5531, option 1. 
+
+## Content Warning
+
+Lectures and assignments may contain language or references to topics that some students may find offensive. Please inform me if you are concerned about the content so that alternative arrangements can be made.
+
+## Copyright and Recording
+
+Do not sell, copy, post online, or otherwise distribute material from this course. The copyright protection of spoken words rests in common law. Copyright regarding notes or other written or recorded works is statutory. Please consult with me for permission before recording lectures (audio or video). Each student must refrain from uploading to any course shell, discussion board, or website used by the course instructor or other course forums, material that is not the student's original work, unless the student first complies with all applicable copyright laws. I reserve the right to delete materials on the grounds of suspected copyright infringement. The course content, including lectures, are copyrighted materials. Students may not share outside the class, upload, sell, or distribute course content or notes taken during the conduct of the course without my permission.
+
+**Please refer to the [UCR policies website](https://deanofstudents.ucr.edu/policies-procedures/documents) for additional policy information.**
+
+
+
+
 
