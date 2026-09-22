@@ -64,7 +64,7 @@ The goals of this course are for you to critically analyze and improve your data
 
 # Assignments and Grading
 
-Grading for the class is S/NC. Your grade will be based on the following:
+Grading for the class is S/NC. A grade of 80% is needed to pass the class. Your grade will be based on the following:
 
 |Component|Weight|
 |:--------|:------|
