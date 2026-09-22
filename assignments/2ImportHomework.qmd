@@ -1,0 +1,10 @@
+---
+title: "Data Importing"
+due-date: "10/12/2026"
+type: "Homework"
+categories: Homework
+---
+
+:::{.callout-warning}
+This is an assignment draft and will be finalized later in the quarter.
+:::

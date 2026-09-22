@@ -1,0 +1,31 @@
+---
+title: "Workflow Critique"
+due-date: "11/02/2026"
+type: "Presentation"
+categories: Presentation
+---
+
+:::{.callout-warning}
+This is an assignment draft and will be finalized later in the quarter.
+:::
+
+## Assignment Overview
+
+The goal of this assignment is to take an existing workflow and critically analyze it with an eye for 1) efficiency, 2) fidelity, and 3) sharing/reproducibility. The project will take the form of an in-class presentation (7-8 minutes). You should choose a current or past data analysis project that you have worked with (or one from your lab or a public repository if you are a new student or don’t have data to work with). You will make changes to this workflow for your final course project, so choose something that will be useful to you! Each student should work on their own assignment (unlike homework, this is not a collaborative project)
+
+## Sections
+
+In your presentation, you will have two sections: workflow and critique. The workflow section should be briefer (about 2-3 minutes) so that you can focus more on the critique. Avoid spending time describing the project aims/research goals; please keep your focus on the workflow and implementation of the project.
+
+### Workflow
+In the workflow section, describe the end-to-end workflow of your data analysis project. Provide only enough detail here so that we can understand the critique section. What are sources of raw data, and how are they stored? What steps are needed to combine and/or process the raw data? What research personnel, computing resources, software, and hardware devices are involved in your workflow? What is/are the end product(s) needed for statistical analysis? You don't have to answer every question, just what helps you explain the critique
+
+### Critique
+Next, you will take a critical eye to your workflow and discuss:
+*Efficiency**: Discuss what time-consuming steps in the workflow could be improved with coding (or coding with more automation). What parts of the workflow are iterative and need to be repeated when making changes or correcting errors?
+*Fidelity**: Discuss where errors in the workflow are most likely to occur and what procedures you might implement to improve the fidelity of data, such as eliminating copy/paste or other manual procedures or implementing formal data checks. How do you track what data are cleaned, and what participants/sessions should be included in final analyses?
+*Sharing/reproducibility**: Examine how an outsider might view the project. How well are the files organized and how well documented are the procedures? Would someone be able to reproduce the analyses? If not, what steps could be taken to make this possible (e.g., coding the analyses rather than using a drop-down menu)?
+
+## Due Date
+
+You will give your presentation in class during Week 6. You should turn in your slides on Canvas. 

@@ -1,0 +1,10 @@
+---
+title: "Integrating Skills"
+due-date: "11/16/2026"
+type: "Homework"
+categories: Homework
+---
+
+:::{.callout-warning}
+This is an assignment draft and will be finalized later in the quarter.
+:::
