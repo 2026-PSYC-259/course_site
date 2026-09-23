@@ -11,8 +11,8 @@ Did you set up R, RStudio, git, and GitHub? If not, follow the instructions [her
 ```{r}
 #| echo: false
   downloadthis::download_link(
-  link = "/pdf/1_Introduction.pdf",
-  button_label = " Download Week 1 Slides",
+  link = "",
+  button_label = " View Week 1 Slides",
   button_type = "primary",
   has_icon = TRUE,
   icon = "fa fa-file-alt",
@@ -24,13 +24,11 @@ Did you set up R, RStudio, git, and GitHub? If not, follow the instructions [her
 
 ## Lecture 1 Outline
 - Introductions
-- Course overview
-- Workflow examples
-- Logistics
+- Syllabus overview
 - Course focus
-- Software setup
+- Workflow example and version control
 
-## GitHub Practice
+## Hands-on GitHub Tutorial
 
 If you have git, a GitHub account, and the GitHub Desktop Client, let's try to fork a repository to your own account.
 

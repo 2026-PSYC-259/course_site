@@ -153,7 +153,7 @@
     "href": "lectures/1GoalsSetup.html",
     "title": "Week 1",
     "section": "",
-    "text": "Warning\n\n\n\nDid you set up R, RStudio, git, and GitHub? If not, follow the instructions here.\nDownload Week 1 Slides",
+    "text": "Warning\n\n\n\nDid you set up R, RStudio, git, and GitHub? If not, follow the instructions here.\nView Week 1 Slides",
     "crumbs": [
       "Lectures",
       "Foundations",
@@ -165,7 +165,7 @@
     "href": "lectures/1GoalsSetup.html#lecture-1-outline",
     "title": "Week 1",
     "section": "Lecture 1 Outline",
-    "text": "Lecture 1 Outline\n\nIntroductions\nCourse overview\nWorkflow examples\nLogistics\nCourse focus\nSoftware setup",
+    "text": "Lecture 1 Outline\n\nIntroductions\nSyllabus overview\nCourse focus\nWorkflow example and version control",
     "crumbs": [
       "Lectures",
       "Foundations",
@@ -173,11 +173,11 @@
     ]
   },
   {
-    "objectID": "lectures/1GoalsSetup.html#github-practice",
-    "href": "lectures/1GoalsSetup.html#github-practice",
+    "objectID": "lectures/1GoalsSetup.html#hands-on-github-tutorial",
+    "href": "lectures/1GoalsSetup.html#hands-on-github-tutorial",
     "title": "Week 1",
-    "section": "GitHub Practice",
-    "text": "GitHub Practice\nIf you have git, a GitHub account, and the GitHub Desktop Client, let’s try to fork a repository to your own account.\n\nNavigate to https://github.com/2026-PSYC-259/1_package_setup.\nClick “fork”. This will make a fork of the repository under your own account.\nIn your repository, click “Code” and then “Open with GitHub Desktop”\nThis should open up the GitHub Desktop Client. From that application, choose a non-cloud location on your local machine to store the cloned repository. A good place would be User/Documents/Github.\nUse GitHub to jump to the directory (or navigate through Finder/Explore) and then open the project.\nTry changing the package_install.R file and saving the change. You should now see that change registered in GitHub Desktop.\nIf you want, you can commit the change with a message and push it back to the origin. Now it will be saved in your GitHub repository in the cloud.",
+    "section": "Hands-on GitHub Tutorial",
+    "text": "Hands-on GitHub Tutorial\nIf you have git, a GitHub account, and the GitHub Desktop Client, let’s try to fork a repository to your own account.\n\nNavigate to https://github.com/2026-PSYC-259/1_package_setup.\nClick “fork”. This will make a fork of the repository under your own account.\nIn your repository, click “Code” and then “Open with GitHub Desktop”\nThis should open up the GitHub Desktop Client. From that application, choose a non-cloud location on your local machine to store the cloned repository. A good place would be User/Documents/Github.\nUse GitHub to jump to the directory (or navigate through Finder/Explore) and then open the project.\nTry changing the package_install.R file and saving the change. You should now see that change registered in GitHub Desktop.\nIf you want, you can commit the change with a message and push it back to the origin. Now it will be saved in your GitHub repository in the cloud.",
     "crumbs": [
       "Lectures",
       "Foundations",
