@@ -25,7 +25,7 @@
     "href": "schedule.html#week-03-1012-data-transformations",
     "title": "Schedule",
     "section": "Week 03, 10/12: Data Transformations",
-    "text": "Week 03, 10/12: Data Transformations\nRead before class: R4DS Data transformation, Numbers, and Strings\n\nBasic data types (numbers, strings)\nVariable naming\nSKILLS: dplyr data wrangling, logical statements, strings\nGithub project link"
+    "text": "Week 03, 10/12: Data Transformations\nRead before class: R4DS Data transformations, Workflow Code Style, Numbers, and Strings\n\nBasic data types (numbers, strings)\nVariable naming\nSKILLS: dplyr data wrangling, logical statements, strings\nGithub project link"
   },
   {
     "objectID": "schedule.html#week-04-1019-data-structure",

@@ -38,7 +38,7 @@ Read before class: *R4DS* [Workflow Basics](https://r4ds.hadley.nz/workflow-basi
 - [Github project link](https://github.com/2026-PSYC-259/2-fileorg-importing)
 
 ##  `r advdate(wed, 3)`: [Data Transformations](lectures/3DataTransformations.qmd)
-Read before class: *R4DS* [Data transformation](https://r4ds.hadley.nz/data-transform), [Numbers](https://r4ds.hadley.nz/numbers), and [Strings](https://r4ds.hadley.nz/strings)
+Read before class: *R4DS* [Data transformations](https://r4ds.hadley.nz/data-transform), [Workflow Code Style](https://r4ds.hadley.nz/workflow-style.html), [Numbers](https://r4ds.hadley.nz/numbers), and [Strings](https://r4ds.hadley.nz/strings)
 
 - Basic data types (numbers, strings)
 - Variable naming
