@@ -4,14 +4,14 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Read before class: R4DS Introduction\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github\nGitHub repository for packages"
+    "text": "Read before class: R4DS Introduction\nLecture (slides)\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github\nGitHub repository for packages"
   },
   {
     "objectID": "schedule.html#week-01-0928-course-goals-and-setup",
     "href": "schedule.html#week-01-0928-course-goals-and-setup",
     "title": "Schedule",
     "section": "",
-    "text": "Read before class: R4DS Introduction\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github\nGitHub repository for packages"
+    "text": "Read before class: R4DS Introduction\nLecture (slides)\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github\nGitHub repository for packages"
   },
   {
     "objectID": "schedule.html#week-02-1005-file-organization-and-workflow",
@@ -278,7 +278,7 @@
   {
     "objectID": "assignments/4DataStructureHomework.html",
     "href": "assignments/4DataStructureHomework.html",
-    "title": "Data Transformations",
+    "title": "Data Structures",
     "section": "",
     "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
   },
@@ -287,7 +287,7 @@
     "href": "assignments.html",
     "title": "Assignments",
     "section": "",
-    "text": "Due Date\n\n\n\nTitle\n\n\n\nAssignment Type\n\n\n\n\n\n\n\n\nMonday, October 12, 2026\n\n\nData Importing\n\n\nHomework\n\n\n\n\n\n\nMonday, October 19, 2026\n\n\nData Transformations\n\n\nHomework\n\n\n\n\n\n\nMonday, October 26, 2026\n\n\nData Transformations\n\n\nHomework\n\n\n\n\n\n\nMonday, November 2, 2026\n\n\nWorkflow Critique\n\n\nPresentation\n\n\n\n\n\n\nMonday, November 9, 2026\n\n\nAutomation and Functions\n\n\nHomework\n\n\n\n\n\n\nMonday, November 16, 2026\n\n\nIntegrating Skills\n\n\nHomework\n\n\n\n\n\n\nMonday, November 23, 2026\n\n\nQuarto Reports\n\n\nHomework\n\n\n\n\n\n\nMonday, November 30, 2026\n\n\nFinal Project\n\n\nProject\n\n\n\n\n\n\nNo matching items"
+    "text": "Due Date\n\n\n\nTitle\n\n\n\nAssignment Type\n\n\n\n\n\n\n\n\nMonday, October 12, 2026\n\n\nData Importing\n\n\nHomework\n\n\n\n\n\n\nMonday, October 19, 2026\n\n\nData Transformations\n\n\nHomework\n\n\n\n\n\n\nMonday, October 26, 2026\n\n\nData Structures\n\n\nHomework\n\n\n\n\n\n\nMonday, November 2, 2026\n\n\nWorkflow Critique\n\n\nPresentation\n\n\n\n\n\n\nMonday, November 9, 2026\n\n\nAutomation and Functions\n\n\nHomework\n\n\n\n\n\n\nMonday, November 16, 2026\n\n\nIntegrating Skills\n\n\nHomework\n\n\n\n\n\n\nMonday, November 23, 2026\n\n\nQuarto Reports\n\n\nHomework\n\n\n\n\n\n\nMonday, November 30, 2026\n\n\nFinal Project\n\n\nProject\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "assignments/5AutomationHomework.html",
