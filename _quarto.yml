@@ -12,12 +12,6 @@ website:
       - lectures/lectures.qmd
       - assignments.qmd
       - resources.qmd
-  announcement:
-    icon: calendar-check
-    dismissable: true
-    content: "**Reminder!** All students should fill out the ([Course Introduction Survey)](https://forms.gle/PbXTf9rn75iWN2L38) before 9/30/26)"
-    type: danger
-    position: below-navbar
   
   repo-url: "https://github.com/2026-PSYC-259/course_site"
   repo-actions: [edit, issue]
