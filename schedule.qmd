@@ -21,6 +21,8 @@ advdate <- function(obj, adv) {
 ## `r advdate(wed, 1)`: [Course Goals and Setup](lectures/1GoalsSetup.qmd)
 Read before class: *R4DS* [Introduction](https://r4ds.hadley.nz/intro)
 
+Lecture ([slides](https://docs.google.com/presentation/d/12VaZzbkydGbFg0zjb-P4l_6ZPZMO17i515Kp568S4zE/edit?usp=sharing)) 
+
 - Goals of the class
 - Logistics
 - Workflow examples

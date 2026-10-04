@@ -11,7 +11,7 @@ Did you set up R, RStudio, git, and GitHub? If not, follow the instructions [her
 ```{r}
 #| echo: false
   downloadthis::download_link(
-  link = "",
+  link = "https://docs.google.com/presentation/d/12VaZzbkydGbFg0zjb-P4l_6ZPZMO17i515Kp568S4zE/edit?usp=sharing",
   button_label = " View Week 1 Slides",
   button_type = "primary",
   has_icon = TRUE,
