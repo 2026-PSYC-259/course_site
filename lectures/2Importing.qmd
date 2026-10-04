@@ -1,6 +1,6 @@
 ---
 title: "Week 2"
-subtitle: R Language Basics and Importing
+subtitle: R File Organization and Importing Data
 page-navigation: true
 filters: 
   - webr
@@ -24,7 +24,7 @@ The slides for this week's lesson are available online as an HTML file. Use the 
 #slide_buttons("/slides/01-slides")
 
 xaringanExtra::embed_xaringan(
-  "https://psych-259-data-science-2022.github.io/259-langbasics-importing/#1",
+  "https://2026-psyc-259.github.io/2-fileorg-importing/#1",
   ratio = "16:9",
   border = "none",
   margin = "0 auto"
