@@ -5,6 +5,11 @@ type: "Homework"
 categories: Homework
 ---
 
-:::{.callout-warning}
-This is an assignment draft and will be finalized later in the quarter.
+- Use the GitHub repo link below to clone the project (no need to fork) to your own user account and then to work locally on your own computer.
+- Be sure you are using R version >= 4.0 and readr version >= 2.0.
+- The homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.
+- Push your answers to a public GitHub repo, and turn in the homework by entering the link to the repo on Canvas.
+
+::: {.callout-note icon=false title="Homework Repo"}
+[github.com/2026-PSYC-259/2-fileorg-importing-hw](https://github.com/2026-PSYC-259/2-fileorg-importing-hw)
 :::

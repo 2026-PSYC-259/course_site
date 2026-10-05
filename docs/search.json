@@ -315,7 +315,7 @@
     "href": "assignments/2ImportHomework.html",
     "title": "Data Importing",
     "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+    "text": "Use the GitHub repo link below to clone the project (no need to fork) to your own user account and then to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to a public GitHub repo, and turn in the homework by entering the link to the repo on Canvas.\n\n\n\n\n\n\n\nNoteHomework repo\n\n\n\ngithub.com/2026-PSYC-259/2-fileorg-importing-hw"
   },
   {
     "objectID": "resources/Materials.html",
