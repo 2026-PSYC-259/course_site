@@ -4,6 +4,31 @@ subtitle: Data Transformations
 page-navigation: true
 ---
 
-:::{.callout-warning}
-Following along with this course will be frustrating if you don't have the right version of R installed! Run `R.Version()` to make sure you are running version 4.0 or above. If not, [download R from CRAN](https://cran.r-project.org/).
+## Slides
+
+The slides for this week's lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+xaringanExtra::embed_xaringan(
+  "https://2026-psyc-259.github.io/3-data-transformations/",
+  ratio = "16:9",
+  border = "none",
+  margin = "0 auto"
+)
+```
+
+:::{.callout-tip}
+Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show brings slide navigation controls.
 :::
+
+```{r}
+#| echo: false
+  downloadthis::download_link(
+  link = "https://github.com/2026-PSYC-259/3-data-transformations/blob/38c412839cb05dbda2e1c1ed6bbea44b32606b51/slides.pdf?raw=true",
+  button_label = "Week 3 Slides PDF",
+  button_type = "primary",
+  has_icon = TRUE,
+  icon = "fa fa-file-alt",
+  self_contained = FALSE
+  )
+```

@@ -73,6 +73,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/fitvids-2.1.1/fitvids.min.js"></script>
+<script src="../site_libs/font-awesome-6.5.2/js/script.js"></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -131,9 +133,6 @@ ul.task-list li input[type="checkbox"] {
         </a>
     </div>
   </nav>
-  <div id="quarto-announcement" data-announcement-id="b027e81ca579a955cd7794c6257986ac" class="alert alert-danger hidden"><i class="bi bi-calendar-check quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Reminder!</strong> All students should fill out the (<a href="https://forms.gle/PbXTf9rn75iWN2L38">Course Introduction Survey)</a> before 9/30/26)</p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -255,8 +254,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/2026-PSYC-259/course_site/edit/main/lectures/3DataTransformations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/2026-PSYC-259/course_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -281,21 +286,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p>The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.</p>
+<div class="shareagain" style="min-width:300px;margin:0 auto;" data-exeternal="1">
+<iframe src="https://2026-psyc-259.github.io/3-data-transformations/" width="1600" height="900" style="border:none;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Warning
+Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Following along with this course will be frustrating if you don’t have the right version of R installed! Run <code>R.Version()</code> to make sure you are running version 4.0 or above. If not, <a href="https://cran.r-project.org/">download R from CRAN</a>.</p>
+<p>Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show brings slide navigation controls.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<a href="https://github.com/2026-PSYC-259/3-data-transformations/blob/38c412839cb05dbda2e1c1ed6bbea44b32606b51/slides.pdf?raw=true">
+<button class="btn btn-primary"><i class="fa fa-file-alt"></i> Week 3 Slides PDF</button>
+</a>
 </div>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -725,7 +745,7 @@ Warning
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/2026-PSYC-259/course_site/edit/main/lectures/3DataTransformations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/2026-PSYC-259/course_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/2026-PSYC-259/course_site/edit/main/lectures/3DataTransformations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/2026-PSYC-259/course_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/2026-PSYC-259">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
 </div>

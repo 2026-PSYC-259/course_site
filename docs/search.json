@@ -81,7 +81,19 @@
     "href": "lectures/3DataTransformations.html",
     "title": "Week 3",
     "section": "",
-    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 3 Slides PDF",
+    "crumbs": [
+      "Lectures",
+      "Processing",
+      "Data Transformations"
+    ]
+  },
+  {
+    "objectID": "lectures/3DataTransformations.html#slides",
+    "href": "lectures/3DataTransformations.html#slides",
+    "title": "Week 3",
+    "section": "",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 3 Slides PDF",
     "crumbs": [
       "Lectures",
       "Processing",
@@ -315,7 +327,7 @@
     "href": "assignments/2ImportHomework.html",
     "title": "Data Importing",
     "section": "",
-    "text": "Use the GitHub repo link below to clone the project (no need to fork) to your own user account and then to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to a public GitHub repo, and turn in the homework by entering the link to the repo on Canvas.\n\n\n\n\n\n\n\nNoteHomework repo\n\n\n\ngithub.com/2026-PSYC-259/2-fileorg-importing-hw"
+    "text": "Use the GitHub repo link below to clone the project (no need to fork) to your own user account and then to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to a public GitHub repo, and turn in the homework by entering the link to the repo on Canvas.\n\n\n\n\n\n\n\nNoteHomework Repo\n\n\n\ngithub.com/2026-PSYC-259/2-fileorg-importing-hw"
   },
   {
     "objectID": "resources/Materials.html",
