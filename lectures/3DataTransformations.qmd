@@ -2,6 +2,17 @@
 title: "Week 3"
 subtitle: Data Transformations
 page-navigation: true
+filters: 
+  - webr
+webr:
+  packages:
+    - dplyr
+    - palmerpenguins
+  cell-options:
+    editor-font-scale: 0.8
+    fig-width: 7
+    fig-height: 4.3
+    out-width: "100%"
 ---
 
 ## Slides
@@ -41,7 +52,7 @@ Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show bring
 ### Try it out
 ```{webr-r}
 library(dplyr)
-ds <- penguins
+ds <- palmerpenguins::penguins
 # Which classes are used in the penguins dataset? Which classes?
 
 # Test if the 'species' column is character
@@ -52,7 +63,7 @@ ds <- penguins
 ### See answer
 ```{webr-r}
 library(dplyr)
-ds <- penguins
+ds <- palmerpenguins::penguins
 # Which classes are used in the penguins dataset? Which classes?
 glimpse(ds) 
 #Classes = factor, numeric
@@ -64,7 +75,8 @@ typeof(ds$species)
 is.character(ds$species)
 
 # Convert the 'island' column to character
-as.character(ds$species)
+ds$species <- as.character(ds$species)
+glimpse(ds)
 ```
 :::
 
