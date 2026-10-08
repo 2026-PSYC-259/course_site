@@ -445,5 +445,29 @@
       "Processing",
       "Data Transformations"
     ]
+  },
+  {
+    "objectID": "lectures/3DataTransformations.html#part-1-types-and-classes",
+    "href": "lectures/3DataTransformations.html#part-1-types-and-classes",
+    "title": "Week 3",
+    "section": "Part 1: Types and classes",
+    "text": "Part 1: Types and classes\nWe discussed the difference between types and classes in the R language and how to check/convert between them. Try out the brief exercise below during class.\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Lectures",
+      "Processing",
+      "Data Transformations"
+    ]
+  },
+  {
+    "objectID": "lectures/3DataTransformations.html#part-2-dplyr",
+    "href": "lectures/3DataTransformations.html#part-2-dplyr",
+    "title": "Week 3",
+    "section": "Part 2: dplyr",
+    "text": "Part 2: dplyr\nWe discussed logical comparisons and using select, filter, and slice to subset data. Try it out in the exercise below.\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nWe discussed how to rename, group_by, mutate, and summarize. Try out the exercise below.\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Lectures",
+      "Processing",
+      "Data Transformations"
+    ]
   }
 ]

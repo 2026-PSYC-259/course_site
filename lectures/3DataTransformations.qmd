@@ -8,6 +8,7 @@ webr:
   packages:
     - dplyr
     - palmerpenguins
+    - janitor
   cell-options:
     editor-font-scale: 0.8
     fig-width: 7
@@ -46,7 +47,13 @@ Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show bring
 
 # Examples
 
-## Part 1: Types/classes/logic
+:::{.callout-tip}
+After making your changes, Rerun the code by clicking the **{{< fa play title="Play" >}} Run Code** button. If you want to save the code you wrote, you can click *View R History" in the right panel.
+:::
+
+## Part 1: Types and classes
+
+We discussed the difference between types and classes in the R language and how to check/convert between them. Try out the brief exercise below during class. 
 
 ::: {.panel-tabset}
 ### Try it out
@@ -80,6 +87,95 @@ glimpse(ds)
 ```
 :::
 
-:::{.callout-tip}
-After making your changes, Rerun the code by clicking the **{{< fa play title="Play" >}} Run Code** button. If you want to save the code you wrote, you can click *View R History" in the right panel.
+## Part 2: dplyr
+
+We discussed logical comparisons and using `select`, `filter`, and `slice` to subset data. Try it out in the exercise below.
+
+::: {.panel-tabset}
+### Try it out
+```{webr-r}
+library(dplyr)
+ds <- palmerpenguins::penguins
+
+# In one piped statement, filter the dataset to include
+# penguins with bills shorter than 39 or longer than 48.
+# Assign the results to a new tibble selecting only species and the numeric variables
+# Sort the results from largest to smallest bill
+
+
+# Check if your sorting is correcting by viewing the first 5
+# and last 5 rows of the new tibble (in two separate statements)
+
+
+```
+### See answer
+```{webr-r}
+library(dplyr)
+ds <- palmerpenguins::penguins
+
+# In one piped statement, filter the dataset to include
+# penguins with bills shorter than 39 or longer than 48.
+# Assign the results to a new tibble selecting only species and the numeric variables
+# Sort the results from largest to smallest bill
+ds_bills <- ds %>% 
+  filter(bill_len < 39 | bill_len > 48) %>% 
+  select(species, where(is.numeric)) %>% 
+  arrange(desc(bill_len))
+
+# Check if your sorting is correcting by viewing the first 5
+# and last 5 rows of the new tibble (in two separate statements)
+ds_bills %>% slice_head(n = 5)
+ds_bills %>% slice_tail(n = 5)
+```
 :::
+
+We discussed how to `rename`, `group_by`, `mutate`, and `summarize`. Try out the exercise below.
+
+::: {.panel-tabset}
+### Try it out
+```{webr-r}
+library(dplyr)
+library(janitor)
+ds <- palmerpenguins::penguins
+
+# Change the variable names to lower camel
+
+# Replace NA values for bill variables with the group means provided below
+bill_len_mean <- mean(ds$billLen, na.rm = T)
+bill_dep_mean <- mean(ds$billDep, na.rm = T)
+
+
+# Summarize the mean/sd/min/max for billLen and billDep by species/island
+# Use across() and starts_with() to avoid typing each calculation
+
+```
+### See answer
+```{webr-r}
+library(dplyr)
+library(janitor)
+ds <- palmerpenguins::penguins
+
+# Change the variable names to lower camel
+ds <- ds %>% clean_names("lower_camel")
+
+# Replace NA values for bill variables with the group means provided below
+bill_len_mean <- mean(ds$billLen, na.rm = T)
+bill_dep_mean <- mean(ds$billDep, na.rm = T)
+
+ds <- ds %>% 
+  mutate(
+    billLen = replace_values(billLen, NA ~ bill_len_mean),
+    billDep = replace_values(billDep, NA ~ bill_dep_mean),
+    )
+
+# Summarize the mean/sd/min/max for billLen and billDep by species/island
+# Use across() and starts_with() to avoid typing each calculation
+ds %>% 
+  group_by(species, island) %>% 
+  summarize(
+    across(starts_with("bill"), list(mean = mean, sd = sd, min = min, max = max))
+  )
+
+```
+:::
+
