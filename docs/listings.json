@@ -16,7 +16,8 @@
     "listing": "/resources.html",
     "items": [
       "/resources/Materials.html",
-      "/resources/Setup.html"
+      "/resources/Setup.html",
+      "/resources/Shortcuts.html"
     ]
   }
 ]
