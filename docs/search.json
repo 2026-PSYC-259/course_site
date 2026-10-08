@@ -222,7 +222,7 @@
     "href": "resources/Shortcuts.html",
     "title": "Useful keyboard shortcuts",
     "section": "",
-    "text": "Mac\nPC\nResult\n\n\n\n\nOption-\nALT-\n&lt;-\n\n\nCommandShiftM\nControlShiftM\n%&gt;%\n\n\nCommandEnter\nControlEnter\nRun selected code\n\n\nCommandShiftC\nControlShiftC\nComment/uncomment selected lines\n\n\nOption→\nControl→\nNavigates word-by-word\n\n\nOption drag\nAlt drag\nEdit multiple rows\n\n\n\nHolding Shift while arrowing by character/word/row to select"
+    "text": "Mac\nPC\nResult\n\n\n\n\nOption-\nALT-\nInsert &lt;-\n\n\nCommandShiftM\nControlShiftM\nInsert %&gt;%\n\n\nCommandEnter\nControlEnter\nRun selected code\n\n\nCommandShiftC\nControlShiftC\nComment/uncomment\n\n\nOption→\nControl→\nNavigates word-by-word\n\n\nOptionDel\nControlBackspace\nDelete word-by-word\n\n\nOption drag\nAlt drag\nEdit multiple rows\n\n\n↑\n↑\nCycle console history\n\n\n\nHolding Shift while arrowing by character/word/row to select"
   },
   {
     "objectID": "assignments/2ImportHomework.html",

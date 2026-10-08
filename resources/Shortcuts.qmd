@@ -4,11 +4,13 @@ title: "Useful keyboard shortcuts"
 
 |Mac | PC | Result | 
 |---| --- | --- |
-|<kbd>Option</kbd><kbd>-</kbd> | <kbd>ALT</kbd><kbd>-</kbd> | `<-` |
-|<kbd>Command</kbd><kbd>Shift</kbd><kbd>M</kbd> | <kbd>Control</kbd><kbd>Shift</kbd><kbd>M</kbd> | `%>%` |
+|<kbd>Option</kbd><kbd>-</kbd> | <kbd>ALT</kbd><kbd>-</kbd> | Insert `<-` |
+|<kbd>Command</kbd><kbd>Shift</kbd><kbd>M</kbd> | <kbd>Control</kbd><kbd>Shift</kbd><kbd>M</kbd> | Insert `%>%` |
 |<kbd>Command</kbd><kbd>Enter</kbd> | <kbd>Control</kbd><kbd>Enter</kbd> | Run selected code |
-| <kbd>Command</kbd><kbd>Shift</kbd><kbd>C</kbd> | <kbd>Control</kbd><kbd>Shift</kbd><kbd>C</kbd> | Comment/uncomment selected lines | 
+| <kbd>Command</kbd><kbd>Shift</kbd><kbd>C</kbd> | <kbd>Control</kbd><kbd>Shift</kbd><kbd>C</kbd> | Comment/uncomment | 
 | <kbd>Option</kbd><kbd>&rarr;</kbd> | <kbd>Control</kbd><kbd>&rarr;</kbd> | Navigates word-by-word |
+| <kbd>Option</kbd><kbd>Del</kbd> | <kbd>Control</kbd><kbd>Backspace</kbd> | Delete word-by-word |
 | <kbd>Option</kbd> drag | <kbd>Alt</kbd> drag | Edit multiple rows |
+| <kbd>&#8593;</bbd> | <kbd>&#8593;</bbd> | Cycle console history |
 
 Holding <kbd>Shift</kbd> while arrowing by character/word/row to select

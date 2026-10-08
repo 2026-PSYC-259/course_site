@@ -32,3 +32,42 @@ Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show bring
   self_contained = FALSE
   )
 ```
+
+# Examples
+
+## Part 1: Types/classes/logic
+
+::: {.panel-tabset}
+### Try it out
+```{webr-r}
+library(dplyr)
+ds <- penguins
+# Which classes are used in the penguins dataset? Which classes?
+
+# Test if the 'species' column is character
+
+# Convert the 'island' column to character
+
+```
+### See answer
+```{webr-r}
+library(dplyr)
+ds <- penguins
+# Which classes are used in the penguins dataset? Which classes?
+glimpse(ds) 
+#Classes = factor, numeric
+class(ds$species)
+#Types = integer (including factors), double
+typeof(ds$species) 
+
+# Test if the 'species' column is character
+is.character(ds$species)
+
+# Convert the 'island' column to character
+as.character(ds$species)
+```
+:::
+
+:::{.callout-tip}
+After making your changes, Rerun the code by clicking the **{{< fa play title="Play" >}} Run Code** button. If you want to save the code you wrote, you can click *View R History" in the right panel.
+:::
