@@ -5,11 +5,11 @@ type: "Homework"
 categories: Homework
 ---
 
-- Use the GitHub repo link below to clone the project (no need to fork) to your own user account and then to work locally on your own computer.
+- Use the GitHub repo link below to fork the project to your own user account and then clone the project to work locally on your own computer.
 - Be sure you are using R version >= 4.0 and readr version >= 2.0.
 - The homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.
-- Push your answers to a public GitHub repo, and turn in the homework by entering the link to the repo on Canvas.
+- Push your answers to the public GitHub repo you made by forking, and turn in the homework by entering the link to the repo on Canvas.
 
 ::: {.callout-note icon=false title="Homework Repo"}
-[github.com/2026-PSYC-259/2-fileorg-importing-hw](https://github.com/2026-PSYC-259/2-fileorg-importing-hw)
+[Link](https://github.com/2026-PSYC-259/2-fileorg-importing-hw)
 :::
