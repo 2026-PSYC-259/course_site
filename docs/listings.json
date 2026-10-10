@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/resources.html",
+    "items": [
+      "/resources/Materials.html",
+      "/resources/Setup.html",
+      "/resources/Shortcuts.html"
+    ]
+  },
+  {
     "listing": "/assignments.html",
     "items": [
       "/assignments/2ImportHomework.html",
@@ -10,14 +18,6 @@
       "/assignments/7IntegratingSkillsHomework.html",
       "/assignments/8QuartoHomework.html",
       "/assignments/10FinalProject.html"
-    ]
-  },
-  {
-    "listing": "/resources.html",
-    "items": [
-      "/resources/Materials.html",
-      "/resources/Setup.html",
-      "/resources/Shortcuts.html"
     ]
   }
 ]
