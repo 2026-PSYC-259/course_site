@@ -18,7 +18,7 @@ webr:
 
 ## Slides
 
-The slides for this week's lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+The slides for this week's lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
 
 ```{r show-slide-tabs, echo=FALSE, results="asis"}
 #slide_buttons("/slides/01-slides")
@@ -34,6 +34,18 @@ xaringanExtra::embed_xaringan(
 :::{.callout-tip}
 Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show brings slide navigation controls.
 :::
+
+```{r}
+#| echo: false
+  downloadthis::download_link(
+  link = "https://github.com/2026-PSYC-259/2-fileorg-importing/blob/688055ccd3670b430a39427a048c742dfc5a89a0/slides.pdf?raw=true",
+  button_label = "Week 2 Slides PDF",
+  button_type = "primary",
+  has_icon = TRUE,
+  icon = "fa fa-file-alt",
+  self_contained = FALSE
+  )
+```
 
 ## Practice
 
