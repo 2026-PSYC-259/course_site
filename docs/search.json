@@ -101,11 +101,35 @@
     ]
   },
   {
+    "objectID": "lectures/3DataTransformations.html#part-1-types-and-classes",
+    "href": "lectures/3DataTransformations.html#part-1-types-and-classes",
+    "title": "Week 3",
+    "section": "Part 1: Types and classes",
+    "text": "Part 1: Types and classes\nWe discussed the difference between types and classes in the R language and how to check/convert between them. Try out the brief exercise below during class.\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Lectures",
+      "Processing",
+      "Data Transformations"
+    ]
+  },
+  {
+    "objectID": "lectures/3DataTransformations.html#part-2-dplyr",
+    "href": "lectures/3DataTransformations.html#part-2-dplyr",
+    "title": "Week 3",
+    "section": "Part 2: dplyr",
+    "text": "Part 2: dplyr\nWe discussed logical comparisons and using select, filter, and slice to subset data. Try it out in the exercise below.\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nWe discussed how to rename, group_by, mutate, and summarize. Try out the exercise below.\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Lectures",
+      "Processing",
+      "Data Transformations"
+    ]
+  },
+  {
     "objectID": "lectures/2Importing.html",
     "href": "lectures/2Importing.html",
     "title": "Week 2",
     "section": "",
-    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 2 Slides PDF",
     "crumbs": [
       "Lectures",
       "Foundations",
@@ -117,7 +141,7 @@
     "href": "lectures/2Importing.html#slides",
     "title": "Week 2",
     "section": "",
-    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 2 Slides PDF",
     "crumbs": [
       "Lectures",
       "Foundations",
@@ -222,35 +246,35 @@
     "href": "resources/Shortcuts.html",
     "title": "Useful keyboard shortcuts",
     "section": "",
-    "text": "Mac\nPC\nResult\n\n\n\n\nOption-\nALT-\nInsert &lt;-\n\n\nCommandShiftM\nControlShiftM\nInsert %&gt;%\n\n\nCommandEnter\nControlEnter\nRun selected code\n\n\nCommandShiftC\nControlShiftC\nComment/uncomment\n\n\nOption→\nControl→\nNavigates word-by-word\n\n\nOptionDel\nControlBackspace\nDelete word-by-word\n\n\nOption drag\nAlt drag\nEdit multiple rows\n\n\n↑\n↑\nCycle console history\n\n\n\nHolding Shift while arrowing by character/word/row to select"
+    "text": "Mac\nPC\nResult\n\n\n\n\nOption+-\nALT+-\nInsert &lt;-\n\n\nCommand+Shift+M\nControl+Shift+M\nInsert %&gt;%\n\n\nCommand+Enter\nControl+Enter\nRun selected code\n\n\nCommand+Shift+C\nControl+Shift+C\nComment/uncomment\n\n\nOption+→\nControl+→\nNavigates word-by-word\n\n\nOption+Del\nControl+Backspace\nDelete word-by-word\n\n\nCommand+F\nControl+F\nFind/replace\n\n\nOption drag\nAlt drag\nEdit multiple rows\n\n\n↑\n↑\nCycle console history\n\n\n\nHolding Shift while arrowing by character/word/row to select"
   },
   {
     "objectID": "assignments/2ImportHomework.html",
     "href": "assignments/2ImportHomework.html",
     "title": "Data Importing",
     "section": "",
-    "text": "Use the GitHub repo link below to clone the project (no need to fork) to your own user account and then to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to a public GitHub repo, and turn in the homework by entering the link to the repo on Canvas.\n\n\n\n\n\n\n\nNoteHomework Repo\n\n\n\ngithub.com/2026-PSYC-259/2-fileorg-importing-hw"
+    "text": "Use the GitHub repo link below to fork the project to your own user account and then clone the project to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to the public GitHub repo you made by forking, and turn in the homework by entering the link to the repo on Canvas.\n\n\n\n\n\n\n\nNoteHomework Repo\n\n\n\nLink"
   },
   {
     "objectID": "assignments/8QuartoHomework.html",
     "href": "assignments/8QuartoHomework.html",
     "title": "Quarto Reports",
     "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter.\n\n\n\nUse the GitHub repo link below to fork the project to your own user account and then clone the project to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to the public GitHub repo you made by forking, and turn in the homework by entering the link to the repo on Canvas."
   },
   {
     "objectID": "assignments/3DataTransformationsHomework.html",
     "href": "assignments/3DataTransformationsHomework.html",
     "title": "Data Transformations",
     "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+    "text": "Use the GitHub repo link below to fork the project to your own user account and then clone the project to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to the public GitHub repo you made by forking, and turn in the homework by entering the link to the repo on Canvas.\n\n\n\n\n\n\n\nNoteHomework Repo\n\n\n\nLink"
   },
   {
     "objectID": "assignments/5AutomationHomework.html",
     "href": "assignments/5AutomationHomework.html",
     "title": "Automation and Functions",
     "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter.\n\n\n\nUse the GitHub repo link below to fork the project to your own user account and then clone the project to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to the public GitHub repo you made by forking, and turn in the homework by entering the link to the repo on Canvas."
   },
   {
     "objectID": "assignments.html",
@@ -264,14 +288,14 @@
     "href": "assignments/4DataStructureHomework.html",
     "title": "Data Structures",
     "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter.\n\n\n\nUse the GitHub repo link below to fork the project to your own user account and then clone the project to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to the public GitHub repo you made by forking, and turn in the homework by entering the link to the repo on Canvas."
   },
   {
     "objectID": "assignments/7IntegratingSkillsHomework.html",
     "href": "assignments/7IntegratingSkillsHomework.html",
     "title": "Integrating Skills",
     "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
+    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter.\n\n\n\nUse the GitHub repo link below to fork the project to your own user account and then clone the project to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to the public GitHub repo you made by forking, and turn in the homework by entering the link to the repo on Canvas."
   },
   {
     "objectID": "assignments/10FinalProject.html",
@@ -433,41 +457,5 @@
     "title": "Resources",
     "section": "",
     "text": "Title\n\n\n\n\n\n\n\n\nBooks and websites\n\n\n\n\n\n\nSetting up your coding environment\n\n\n\n\n\n\nUseful keyboard shortcuts\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lectures/3DataTransformations.html#part-1-typesclasseslogic",
-    "href": "lectures/3DataTransformations.html#part-1-typesclasseslogic",
-    "title": "Week 3",
-    "section": "Part 1: Types/classes/logic",
-    "text": "Part 1: Types/classes/logic\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAfter making your changes, Rerun the code by clicking the  Run Code button. If you want to save the code you wrote, you can click *View R History” in the right panel.",
-    "crumbs": [
-      "Lectures",
-      "Processing",
-      "Data Transformations"
-    ]
-  },
-  {
-    "objectID": "lectures/3DataTransformations.html#part-1-types-and-classes",
-    "href": "lectures/3DataTransformations.html#part-1-types-and-classes",
-    "title": "Week 3",
-    "section": "Part 1: Types and classes",
-    "text": "Part 1: Types and classes\nWe discussed the difference between types and classes in the R language and how to check/convert between them. Try out the brief exercise below during class.\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Lectures",
-      "Processing",
-      "Data Transformations"
-    ]
-  },
-  {
-    "objectID": "lectures/3DataTransformations.html#part-2-dplyr",
-    "href": "lectures/3DataTransformations.html#part-2-dplyr",
-    "title": "Week 3",
-    "section": "Part 2: dplyr",
-    "text": "Part 2: dplyr\nWe discussed logical comparisons and using select, filter, and slice to subset data. Try it out in the exercise below.\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nWe discussed how to rename, group_by, mutate, and summarize. Try out the exercise below.\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Lectures",
-      "Processing",
-      "Data Transformations"
-    ]
   }
 ]
