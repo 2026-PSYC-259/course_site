@@ -60,7 +60,7 @@ We discussed the difference between types and classes in the R language and how 
 ```{webr-r}
 library(dplyr)
 ds <- palmerpenguins::penguins
-# Which classes are used in the penguins dataset? Which classes?
+# Which classes are used in the penguins dataset? 
 
 # Test if the 'species' column is character
 
@@ -71,7 +71,7 @@ ds <- palmerpenguins::penguins
 ```{webr-r}
 library(dplyr)
 ds <- palmerpenguins::penguins
-# Which classes are used in the penguins dataset? Which classes?
+# Which classes are used in the penguins dataset? 
 glimpse(ds) 
 #Classes = factor, numeric
 class(ds$species)
