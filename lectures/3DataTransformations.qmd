@@ -170,10 +170,18 @@ names(ds)
 bill_len_mean <- mean(ds$billLengthMm, na.rm = T)
 bill_dep_mean <- mean(ds$billDepthMm, na.rm = T)
 
+# This is a nice way of doing it, but is only available in dplyr >1.2
 ds <- ds %>% 
   mutate(
     billLengthMm = replace_values(billLengthMm, NA ~ bill_len_mean),
     billDepthMm = replace_values(billDepthMm, NA ~ bill_dep_mean)
+    )
+packageVersion("dplyr") #webr is running 1.1.4 in Oct 2026
+
+ds <- ds %>% 
+  mutate(
+    billLengthMm = ifelse(is.na(billLengthMm), bill_len_mean, billLengthMm),
+    billDepthMm = ifelse(is.na(billDepthMm), bill_dep_mean, billDepthMm)
     )
 
 # Summarize the mean/sd/min/max for billLen and billDep by species/island
