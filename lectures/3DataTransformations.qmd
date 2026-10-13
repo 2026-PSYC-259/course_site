@@ -6,7 +6,7 @@ filters:
   - webr
 webr:
   packages:
-    - dplyr
+    - tidyverse
     - palmerpenguins
     - janitor
   cell-options:
@@ -58,7 +58,7 @@ We discussed the difference between types and classes in the R language and how 
 ::: {.panel-tabset}
 ### Try it out
 ```{webr-r}
-library(dplyr)
+library(tidyverse)
 ds <- palmerpenguins::penguins
 # Which classes are used in the penguins dataset? Which types?
 
@@ -69,7 +69,7 @@ ds <- palmerpenguins::penguins
 ```
 ### See answer
 ```{webr-r}
-library(dplyr)
+library(tidyverse)
 ds <- palmerpenguins::penguins
 # Which classes are used in the penguins dataset? Which types?
 glimpse(ds) 
@@ -94,7 +94,7 @@ We discussed logical comparisons and using `select`, `filter`, and `slice` to su
 ::: {.panel-tabset}
 ### Try it out
 ```{webr-r}
-library(dplyr)
+library(tidyverse)
 ds <- palmerpenguins::penguins
 
 # In one piped statement, filter the dataset to include
@@ -103,14 +103,14 @@ ds <- palmerpenguins::penguins
 # Sort the results from largest to smallest bill
 
 
-# Check if your sorting is correcting by viewing the first 5
+# Check if your sorting is correct by viewing the first 5
 # and last 5 rows of the new tibble (in two separate statements)
 
 
 ```
 ### See answer
 ```{webr-r}
-library(dplyr)
+library(tidyverse)
 ds <- palmerpenguins::penguins
 
 # In one piped statement, filter the dataset to include
@@ -118,11 +118,11 @@ ds <- palmerpenguins::penguins
 # Assign the results to a new tibble selecting only species and the numeric variables
 # Sort the results from largest to smallest bill
 ds_bills <- ds %>% 
-  filter(bill_len < 39 | bill_len > 48) %>% 
+  filter(bill_length_mm < 39 | bill_length_mm > 48) %>% 
   select(species, where(is.numeric)) %>% 
-  arrange(desc(bill_len))
+  arrange(desc(bill_length_mm))
 
-# Check if your sorting is correcting by viewing the first 5
+# Check if your sorting is correct by viewing the first 5
 # and last 5 rows of the new tibble (in two separate statements)
 ds_bills %>% slice_head(n = 5)
 ds_bills %>% slice_tail(n = 5)
@@ -134,15 +134,19 @@ We discussed how to `rename`, `group_by`, `mutate`, and `summarize`. Try out the
 ::: {.panel-tabset}
 ### Try it out
 ```{webr-r}
-library(dplyr)
+library(tidyverse)
 library(janitor)
 ds <- palmerpenguins::penguins
 
 # Change the variable names to lower camel
 
+# If it worked, evaluating names(ds) should produce
+# "species" "island" "billLengthMm" "billDepthMm" etc.
+names(ds)
+
 # Replace NA values for bill variables with the group means provided below
-bill_len_mean <- mean(ds$billLen, na.rm = T)
-bill_dep_mean <- mean(ds$billDep, na.rm = T)
+bill_len_mean <- mean(ds$billLenMm, na.rm = T)
+bill_dep_mean <- mean(ds$billDepMm, na.rm = T)
 
 
 # Summarize the mean/sd/min/max for billLen and billDep by species/island
@@ -151,21 +155,25 @@ bill_dep_mean <- mean(ds$billDep, na.rm = T)
 ```
 ### See answer
 ```{webr-r}
-library(dplyr)
+library(tidyverse)
 library(janitor)
 ds <- palmerpenguins::penguins
 
 # Change the variable names to lower camel
 ds <- ds %>% clean_names("lower_camel")
 
+# If it worked, evaluating names(ds) should produce
+# "species" "island" "billLengthMm" "billDepthMm" etc.
+names(ds)
+
 # Replace NA values for bill variables with the group means provided below
-bill_len_mean <- mean(ds$billLen, na.rm = T)
-bill_dep_mean <- mean(ds$billDep, na.rm = T)
+bill_len_mean <- mean(ds$billLengthMm, na.rm = T)
+bill_dep_mean <- mean(ds$billDepthMm, na.rm = T)
 
 ds <- ds %>% 
   mutate(
-    billLen = replace_values(billLen, NA ~ bill_len_mean),
-    billDep = replace_values(billDep, NA ~ bill_dep_mean),
+    billLengthMm = replace_values(billLengthMm, NA ~ bill_len_mean),
+    billDepthMm = replace_values(billDepthMm, NA ~ bill_dep_mean)
     )
 
 # Summarize the mean/sd/min/max for billLen and billDep by species/island
