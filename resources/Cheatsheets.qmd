@@ -1,0 +1,16 @@
+---
+title: "Tidyverse Cheatsheets"
+---
+
+Posit (the organization behind tidyverse and RStudio) maintains cheatsheets for their packages that are good as a quick reference. Each cheatsheet has an html and an image version.
+
+- [RStudio IDE](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html)
+- [Data import: readr, readxl, googlesheets4](https://rstudio.github.io/cheatsheets/html/data-import.html)
+- [Data transformation with dplyr](https://rstudio.github.io/cheatsheets/html/data-transformation.html)
+- [Data tidying with tidyr](https://rstudio.github.io/cheatsheets/html/tidyr.html)
+- [Factors with forcats](https://rstudio.github.io/cheatsheets/html/factors.html)
+- [Dates and times with lubridate](https://rstudio.github.io/cheatsheets/html/lubridate.html)
+- [String manipulation with stringr](https://rstudio.github.io/cheatsheets/html/strings.html)
+- [Data visualization with ggplot2](https://rstudio.github.io/cheatsheets/html/data-visualization.html)
+- [Functional programming with purrr](https://rstudio.github.io/cheatsheets/html/purrr.html)
+- [Reproducible documents using Quarto](https://rstudio.github.io/cheatsheets/html/quarto.html)
