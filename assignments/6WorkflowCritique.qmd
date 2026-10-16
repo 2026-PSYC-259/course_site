@@ -31,7 +31,7 @@ It's OK if your main focus is heavier in one of the three areas, but we want to 
 
 ## Due Date
 
-You will give your presentation in class during Week 6. You should turn in your slides on Canvas. 
+You will give your presentation in class during Week 6. You should make your slides in Google Slides and turn in a link to your slides on Canvas 1 hour before class. 
 
 ## Grading Criteria
 
@@ -40,7 +40,7 @@ Workflow description
 - Provided a high level overview of how raw data that are collected get processed for analysis
 - Addressed human (research assistant entry) and/or automated (processing scripts) elements
 
-Workflow critique (3 minutes)
+Workflow critique
 
 - Identified at least one issue relevant to each of the three categories (efficiency, fidelity, reproducibility)
 - Described potential solutions for issues to set goals for the final project

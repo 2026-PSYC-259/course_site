@@ -358,7 +358,7 @@
     "href": "assignments/6WorkflowCritique.html#due-date",
     "title": "Workflow Critique",
     "section": "Due Date",
-    "text": "Due Date\nYou will give your presentation in class during Week 6. You should turn in your slides on Canvas."
+    "text": "Due Date\nYou will give your presentation in class during Week 6. You should make your slides in Google Slides and turn in a link to your slides on Canvas 1 hour before class."
   },
   {
     "objectID": "resources/Materials.html",
@@ -463,6 +463,6 @@
     "href": "assignments/6WorkflowCritique.html#grading-criteria",
     "title": "Workflow Critique",
     "section": "Grading Criteria",
-    "text": "Grading Criteria\nWorkflow description\n\nProvided a high level overview of how raw data that are collected get processed for analysis\nAddressed human (research assistant entry) and/or automated (processing scripts) elements\n\nWorkflow critique (3 minutes)\n\nIdentified at least one issue relevant to each of the three categories (efficiency, fidelity, reproducibility)\nDescribed potential solutions for issues to set goals for the final project"
+    "text": "Grading Criteria\nWorkflow description\n\nProvided a high level overview of how raw data that are collected get processed for analysis\nAddressed human (research assistant entry) and/or automated (processing scripts) elements\n\nWorkflow critique\n\nIdentified at least one issue relevant to each of the three categories (efficiency, fidelity, reproducibility)\nDescribed potential solutions for issues to set goals for the final project"
   }
 ]
