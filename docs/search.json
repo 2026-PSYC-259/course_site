@@ -218,7 +218,7 @@
     "href": "assignments/4DataStructureHomework.html",
     "title": "Data Structures",
     "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter.\n\n\n\nUse the GitHub repo link below to fork the project to your own user account and then clone the project to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to the public GitHub repo you made by forking, and turn in the homework by entering the link to the repo on Canvas."
+    "text": "Use the GitHub repo link below to fork the project to your own user account and then clone the project to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to the public GitHub repo you made by forking, and turn in the homework by entering the link to the repo on Canvas.\n\n\n\n\n\n\n\nNoteHomework Repo\n\n\n\nLink"
   },
   {
     "objectID": "assignments/2ImportHomework.html",
