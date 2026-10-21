@@ -338,7 +338,7 @@
     "href": "lectures/3DataTransformations.html",
     "title": "Week 3",
     "section": "",
-    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 3 Slides PDF",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 5 Slides PDF",
     "crumbs": [
       "Lectures",
       "Processing",
@@ -350,7 +350,7 @@
     "href": "lectures/3DataTransformations.html#slides",
     "title": "Week 3",
     "section": "",
-    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 3 Slides PDF",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 5 Slides PDF",
     "crumbs": [
       "Lectures",
       "Processing",
@@ -384,9 +384,9 @@
   {
     "objectID": "lectures/5Automation.html",
     "href": "lectures/5Automation.html",
-    "title": "Week 6",
+    "title": "Week 5",
     "section": "",
-    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 5 Slides PDF",
     "crumbs": [
       "Lectures",
       "Efficiency",
@@ -495,5 +495,41 @@
     "title": "Schedule",
     "section": "Week 10, 11/30: Visualization and Final Project Presentations (Part 2)",
     "text": "Week 10, 11/30: Visualization and Final Project Presentations (Part 2)\n\nSecond set of Final Project Presentations"
+  },
+  {
+    "objectID": "lectures/5Automation.html#slides",
+    "href": "lectures/5Automation.html#slides",
+    "title": "Week 5",
+    "section": "",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 5 Slides PDF",
+    "crumbs": [
+      "Lectures",
+      "Efficiency",
+      "Automation: Functions and Iteration"
+    ]
+  },
+  {
+    "objectID": "lectures/5Automation.html#part-1-functions-and-across",
+    "href": "lectures/5Automation.html#part-1-functions-and-across",
+    "title": "Week 5",
+    "section": "Part 1: Functions and across()",
+    "text": "Part 1: Functions and across()\n\nTry it outSee answer\n\n\n\nlibrary(tidyverse)\nlibrary(broom)\n\n# Functions and across ----\n\nds &lt;- ds &lt;- palmerpenguins::penguins %&gt;% filter_out(species == \"Chinstrap\")\n\n# Write a z-score function (mean/sd) that omits NAs and rounds the output\n# Add an optional argument that controls how many digits to round the response\n# Think about what would make a sensible default value for digits\n\nz_score &lt;- YOUR ANSWER HERE\n\n# Using across, find the z-score of all of the numeric variables except year\n# rounded to 2 decimals\n\nYOUR ANSWER HERE\n\n# Correct output\n# bill_length_mm bill_depth_mm   flipper_length_mm   body_mass_g\n# 8.22            8.36            13.44               5.17\n\n\n\n\nlibrary(tidyverse)\nlibrary(broom)\n\n# Functions and across ----\n\nds &lt;- ds &lt;- palmerpenguins::penguins %&gt;% filter_out(species == \"Chinstrap\")\n\n# Write a z-score function (mean/sd) that omits NAs and rounds the output\n# Add an optional argument that controls how many digits to round the response\n# Think about what would make a sensible default value for digits\n\nz_score &lt;- function(x, digits = 0) round(mean(x, na.rm = T)/sd(x, na.rm = T), digits)\n\n# Using across, find the z-score of all of the numeric variables except year\n# rounded to 2 decimals\n\nds %&gt;% summarize(across(bill_length_mm:body_mass_g, ~ z_score(.x, 2)))\n\n# Correct output\n# bill_length_mm bill_depth_mm   flipper_length_mm   body_mass_g\n# 8.22            8.36            13.44               5.17",
+    "crumbs": [
+      "Lectures",
+      "Efficiency",
+      "Automation: Functions and Iteration"
+    ]
+  },
+  {
+    "objectID": "lectures/5Automation.html#part-2-functions-and-iteration",
+    "href": "lectures/5Automation.html#part-2-functions-and-iteration",
+    "title": "Week 5",
+    "section": "Part 2: Functions and Iteration",
+    "text": "Part 2: Functions and Iteration\n\nTry it outSee answer\n\n\n\nlibrary(tidyverse)\nlibrary(broom)\n\nds &lt;- ds &lt;- palmerpenguins::penguins %&gt;% filter_out(species == \"Chinstrap\")\n\n# Iteration ----\n\n# Make a wrapper around the base R t.test function that lets you pass a dv to test\n# the effect of species (which will work because we filtered_out the 3rd level)\n# Tidy the output before returning using broom::tidy and add a columns for DV\n# Hint: Use the t.test formula interface and as.formula \n\nmy_t_test &lt;- function(dv) {\n\nYOUR ANSWER HERE\n\n}\n\n# If it works, running this...\nmy_t_test(\"bill_length_mm\")\n# Should give this...\n# dv              estimate estimate1 estimate2 statistic  p.value parameter conf.low conf.high method             alternative\n# &lt;chr&gt;             &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;      \n# bill_length_mm    -8.71      38.8      47.5     -24.7 3.09e-68      243.    -9.41     -8.02 Welch Two Sample … two.sided \n\n# Now, pick a map function to run the t-test on each\n# of these DVs: bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n\nYOUR ANSWER HERE\n\n\n\n\nlibrary(tidyverse)\nlibrary(broom)\n\nds &lt;- ds &lt;- palmerpenguins::penguins %&gt;% filter_out(species == \"Chinstrap\")\n\n# Iteration ----\n\n# Make a wrapper around the base R t.test function that lets you pass a dv to test\n# the effect of species (which will work because we filtered_out the 3rd level)\n# Tidy the output before returning using broom::tidy and add a columns for DV\n# Hint: Use the t.test formula interface and as.formula \n\nmy_t_test &lt;- function(dv) {\n  t.test(as.formula(str_glue(\"{dv} ~ species\")), data = ds) %&gt;% \n    tidy %&gt;% mutate(dv = dv, .before = 1)\n}\n\n# If it works, running this...\nmy_t_test(\"bill_length_mm\")\n# Should give this...\n# dv              estimate estimate1 estimate2 statistic  p.value parameter conf.low conf.high method             alternative\n# &lt;chr&gt;             &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;      \n# bill_length_mm    -8.71      38.8      47.5     -24.7 3.09e-68      243.    -9.41     -8.02 Welch Two Sample … two.sided \n\n# Now, pick a map function to run the t-test on each\n# of these DVs: bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n\ndvs &lt;- c(\"bill_length_mm\", \"bill_depth_mm\", \"flipper_length_mm\", \"body_mass_g\")\nmap_dfr(dvs,  my_t_test)",
+    "crumbs": [
+      "Lectures",
+      "Efficiency",
+      "Automation: Functions and Iteration"
+    ]
   }
 ]
