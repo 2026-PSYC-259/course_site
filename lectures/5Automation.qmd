@@ -8,6 +8,8 @@ page-navigation: true
 
 The slides for this week's lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
 
+All code examples in the slides can be found in this [Github repository](https://github.com/2026-PSYC-259/5-automation-functions).
+
 ```{r show-slide-tabs, echo=FALSE, results="asis"}
 #slide_buttons("/slides/01-slides")
 
@@ -26,7 +28,7 @@ Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show bring
 ```{r}
 #| echo: false
   downloadthis::download_link(
-  link = "https://github.com/2026-PSYC-259/4-data-structure/blob/e96d71b5811bf36637f072fa30286209f787e60a/slides.pdf",
+  link = "https://github.com/2026-PSYC-259/5-automation-functions/blob/main/slides.pdf?raw=T",
   button_label = "Week 5 Slides PDF",
   button_type = "primary",
   has_icon = TRUE,

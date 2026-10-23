@@ -36,8 +36,8 @@ Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show bring
 ```{r}
 #| echo: false
   downloadthis::download_link(
-  link = "https://github.com/2026-PSYC-259/5-automation-functions/blob/main/slides.pdf?raw=T",
-  button_label = "Week 5 Slides PDF",
+  link = "https://github.com/2026-PSYC-259/3-data-transformations/blob/38c412839cb05dbda2e1c1ed6bbea44b32606b51/slides.pdf?raw=true",
+  button_label = "Week 3 Slides PDF",
   button_type = "primary",
   has_icon = TRUE,
   icon = "fa fa-file-alt",

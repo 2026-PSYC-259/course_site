@@ -281,7 +281,7 @@
     "href": "assignments/5AutomationHomework.html",
     "title": "Automation and Functions",
     "section": "",
-    "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter.\n\n\n\nUse the GitHub repo link below to fork the project to your own user account and then clone the project to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to the public GitHub repo you made by forking, and turn in the homework by entering the link to the repo on Canvas."
+    "text": "Use the GitHub repo link below to fork the project to your own user account and then clone the project to work locally on your own computer.\nBe sure you are using R version &gt;= 4.0 and readr version &gt;= 2.0.\nThe homework will make sure you learned what we covered, and will also ask you to try out new things to extend your knowledge.\nPush your answers to the public GitHub repo you made by forking, and turn in the homework by entering the link to the repo on Canvas.\n\n\n\n\n\n\n\nNoteHomework Repo\n\n\n\nLink"
   },
   {
     "objectID": "assignments/7IntegratingSkillsHomework.html",
@@ -338,7 +338,7 @@
     "href": "lectures/3DataTransformations.html",
     "title": "Week 3",
     "section": "",
-    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 5 Slides PDF",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 3 Slides PDF",
     "crumbs": [
       "Lectures",
       "Processing",
@@ -350,7 +350,7 @@
     "href": "lectures/3DataTransformations.html#slides",
     "title": "Week 3",
     "section": "",
-    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 5 Slides PDF",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 3 Slides PDF",
     "crumbs": [
       "Lectures",
       "Processing",
@@ -386,7 +386,7 @@
     "href": "lectures/5Automation.html",
     "title": "Week 5",
     "section": "",
-    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 5 Slides PDF",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\nAll code examples in the slides can be found in this Github repository.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 5 Slides PDF",
     "crumbs": [
       "Lectures",
       "Efficiency",
@@ -501,7 +501,7 @@
     "href": "lectures/5Automation.html#slides",
     "title": "Week 5",
     "section": "",
-    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 5 Slides PDF",
+    "text": "The slides for this week’s lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\nAll code examples in the slides can be found in this Github repository.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.\n\n\n\n\n\n Week 5 Slides PDF",
     "crumbs": [
       "Lectures",
       "Efficiency",
