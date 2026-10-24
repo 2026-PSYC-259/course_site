@@ -27,27 +27,27 @@ website:
             - lectures/lectures.qmd
         - section: "Foundations"
           contents:
-            - text: "Course Goals and Setup"
+            - text: "Wk 1: Course Goals and Setup"
               file: lectures/1GoalsSetup.qmd
-            - text: "Data Importing"
+            - text: "Wk 2: Data Importing"
               file: lectures/2Importing.qmd
         - section: "Processing"
           contents:
-            - text: "Data Transformations"
+            - text: "Wk 3: Data Transformations"
               file: lectures/3DataTransformations.qmd
-            - text: "Data Structure"
+            - text: "Wk 4: Data Structure"
               file: lectures/4DataStructure.qmd          
         - section: "Efficiency"
           contents:
-            - text: "Automation: Functions and Iteration"
+            - text: "Wk 5: Automation: Functions and Iteration"
               file: lectures/5Automation.qmd
-            - text: "Exploratory Data Analysis"
+            - text: "Wk 7: Exploratory Data Analysis"
               file: lectures/7EDA.qmd
         - section: "Communication"
           contents:
-            - text: "Sharing and Reproducibility"
+            - text: "Wk 8: Sharing and Reproducibility"
               file: lectures/8DataSharing.qmd
-            - text: "Visualization"
+            - text: "Wks 9-10: Visualization"
               file: lectures/9Visualization.qmd    
   page-footer:
       left: |
