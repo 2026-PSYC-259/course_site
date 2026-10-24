@@ -100,6 +100,33 @@ ds %>% summarize(across(bill_length_mm:body_mass_g, ~ cv(.x, 2)))
 
 :::
 
+### Functions build on other functions
+
+Take a look at this [package](https://hadley.github.io/genzplyr/).
+
+```{r}
+#| eval: false
+# Old way (cringe):
+library(tidyverse)
+mtcars %>% 
+  filter(mpg > 20) %>% 
+  select(mpg, cyl, hp) %>% 
+  mutate(kpg = mpg * 1.6) 
+
+pak::pak("hadley/genzplyr")
+library(genzplyr)
+# New way (bussin):
+mtcars %>% 
+  yeet(mpg > 20) %>% 
+  vibe_check(mpg, cyl, hp) %>% 
+  glow_up(kpg = mpg * 1.6) 
+
+# View the source
+View(genzplyr::yeet)
+
+# Write your own
+```
+
 ## Part 2: Functions and Iteration
 
 ::: {.panel-tabset}
