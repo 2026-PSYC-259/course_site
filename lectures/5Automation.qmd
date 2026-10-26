@@ -51,8 +51,8 @@ library(tidyverse)
 library(broom)
 
 # Functions and across ----
-
-ds <- ds <- palmerpenguins::penguins %>% filter_out(species == "Chinstrap")
+install.packages("palmerpenguins")
+ds <- palmerpenguins::penguins %>% filter(species != "Chinstrap")
 
 # Write a coefficient of variation fx (sd / mean * 100) that omits NAs and rounds the output
 # Make digits an optional argument that controls how many digits to round the response
