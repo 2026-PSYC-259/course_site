@@ -3,3 +3,36 @@ title: "Week 7"
 subtitle: Exploratory Data Analysis
 page-navigation: true
 ---
+
+## Slides
+
+The slides for this week's lesson are available online as embedded HTML or PDF. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+
+All code examples in the slides can be found in this [Github repository](https://github.com/2026-PSYC-259/7-exploratory-data-analysis).
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+#slide_buttons("/slides/01-slides")
+
+xaringanExtra::embed_xaringan(
+  "https://2026-psyc-259.github.io/7-exploratory-data-analysis/#1",
+  ratio = "16:9",
+  border = "none",
+  margin = "0 auto"
+)
+```
+
+:::{.callout-tip}
+Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show brings slide navigation controls.
+:::
+
+```{r}
+#| echo: false
+  downloadthis::download_link(
+  link = "https://github.com/2026-PSYC-259/7-exploratory-data-analysis/blob/master/slides.pdf?raw=T",
+  button_label = "Week 7 Slides PDF",
+  button_type = "primary",
+  has_icon = TRUE,
+  icon = "fa fa-file-alt",
+  self_contained = FALSE
+  )
+```
