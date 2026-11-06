@@ -133,6 +133,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#github-repository" id="toc-github-repository" class="nav-link" data-scroll-target="#github-repository">Github repository</a></li>
   <li><a href="#what-changes-should-you-make" id="toc-what-changes-should-you-make" class="nav-link" data-scroll-target="#what-changes-should-you-make">What changes should you make?</a></li>
   <li><a href="#quarto-report" id="toc-quarto-report" class="nav-link" data-scroll-target="#quarto-report">Quarto report</a></li>
+  <li><a href="#in-class-presentation" id="toc-in-class-presentation" class="nav-link" data-scroll-target="#in-class-presentation">In-class presentation</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/2026-PSYC-259/course_site/edit/main/assignments/10FinalProject.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/2026-PSYC-259/course_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -161,32 +162,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is an assignment draft and will be finalized later in the quarter.</p>
-</div>
-</div>
 <section id="assignment-overview" class="level2">
 <h2 class="anchored" data-anchor-id="assignment-overview">Assignment Overview</h2>
-<p>The goal of this assignment is to take an existing workflow and improve its 1) efficiency, 2) fidelity, and 3) sharing/reproducibility. There are two parts of the project. The first part is a Github repository that tracks changes you made to your project and shows how your new workflow is set up. The second part is a written report that describes the changes you made, why you made them, and what benefits each one should create. This report should use Quarto to illustrate changes you made to code, the examples of error checking and EDA, and figures made from your data. All of the files, including data files, scripts, figures, and the Quarto report, should be stored on the Github repository.</p>
-<p><strong>Due Date</strong>. You should make your Github repository public and submit the repository link on Canvas. If you prefer to make it private (such is if you have data that should not be shared publicly), you can make a private Github repository and add the instructors as users.</p>
+<p>The goal of this assignment is to take an existing workflow and improve its 1) efficiency, 2) fidelity, and 3) sharing/reproducibility. There are three parts of the project. The first part is a 10-minute presentation to the class during week 9 or 10. The second part is a Github repository that tracks changes you made to your project and shows how your new workflow is set up. The third part is a written report that describes the changes you made, why you made them, and what benefits each one should create. This report should use Quarto to illustrate changes you made to code, the examples of error checking and EDA, and figures made from your data. All of the files, including data files, scripts, figures, and the Quarto report, should be stored on the Github repository.</p>
+<p><strong>Due date and submission</strong>. The presentation and the repository/report have different due dates. Your presentation is due 1-hour before class on week 9 or week 10 (depending on your assigned presentation slot). The repository/report are due on Monday, December 7 for everyone. You should make your Github repository public and submit the repository link on Canvas. If you prefer to make it private (such is if you have data that should not be shared publicly), you can make a private Github repository and add the instructors as users.</p>
 </section>
 <section id="github-repository" class="level2">
 <h2 class="anchored" data-anchor-id="github-repository">Github repository</h2>
-<p>Before you start to make changes to your project, set up a Github repository with your current project files so that we can see the “before”. Because the focus of the course has been on data wrangling and exploratory analysis, your project should contain raw data files, script(s) that im- port and clean the data, and scripts that explore the data and/or check for errors. If you have raw data that contains sensitive information, you can deidentify the data or make a few “fake” data files that have the correct format/structure so that we can understand the project. Please do not share anything publicly on Github that you are not allowed share. Another option is to tell Github to ignore the folder containing raw/sensitive data and share a screenshot with us showing how the raw data are formatted. Or, you can create a private repository and share it directly with the instructors. If in doubt, ask, and we can figure out something that works for your project.</p>
+<p>Before you start to make changes to your project, set up a Github repository with your current project files so that we can see the “before”. Because the focus of the course has been on data wrangling and exploratory analysis, your project should contain raw data files, script(s) that import and clean the data, and scripts that explore the data and/or check for errors. If you have raw data that contains sensitive information, you can deidentify the data or make a few “fake” data files that have the correct format/structure so that we can understand the project. Please do not share anything publicly on Github that you are not allowed share. If allowable (check with your PI), you can create a private repository and share it directly with the instructors. If in doubt, ask, and we can figure out something that works for your project.</p>
 <p>As you work on your project and make changes, commit and push the changes to Github so that we can see what you changed. If you’ve already started making changes and they’re not tracked in Github, let us know and we can try to figure out a way to see the “before” version of the project. If your project uses a coding language other than R for data import/cleaning/checking, that’s OK. Let us know in advance so that we can make sure we have a way to see/understand what your project does. No matter what language(s) you use in the project, everyone should use Quarto and R to make the report.</p>
 </section>
 <section id="what-changes-should-you-make" class="level2">
 <h2 class="anchored" data-anchor-id="what-changes-should-you-make">What changes should you make?</h2>
-<p>Based on your self-critique assignment and our feedback, you should make changes to improve the efficiency, fidelity, and sharing/reproducibility of the project. You don’t need to cover these three categories equally. If improving the efficiency is most important to your project, focus on that. Of course, some changes might fall into multiple categories (e.g., automating reading data from a file is more efficient and is less likely to lead to mistakes). Please describe the reasoning behind the changes you chose to make. Your final project should contain at least one example of the following items:</p>
+<p>Based on your self-critique assignment and our feedback, you should make changes to improve the efficiency, fidelity, and sharing/reproducibility of the project. You don’t need to cover these three categories equally. If improving the efficiency is most important to your project, focus on efficiency. Of course, some changes might fall into multiple categories (e.g., automating reading data from a file is more efficient and is less likely to lead to mistakes). Please describe the reasoning behind the changes you chose to make. Your final project should contain at least one example of the following items:</p>
 <ul>
 <li>Wrote a custom function to reduce code repetition and/or split long scripts into more manageable files</li>
 <li>Used some form of automation (map, for loop, across, read_csv) to replace repetitive code or manual data entry/copy/paste</li>
@@ -198,6 +186,10 @@ Warning
 <section id="quarto-report" class="level2">
 <h2 class="anchored" data-anchor-id="quarto-report">Quarto report</h2>
 <p>Use Quarto to prepare a report that summarizes the work you did to improve your project. Because everyone’s changes will be different, you should structure the report in a way that makes sense to you. For each change that you made, please be sure to explain how you did it and why you did it. Make use of Quarto code chunks to illustrate the before and after of a change you made to code (not every change, but changes that are representative of the type of change). You are encouraged to embed figures to illustrate the results of your data checking and exploration. Render your Quarto file as a PDF or HTML so that we can view it easily.</p>
+</section>
+<section id="in-class-presentation" class="level2">
+<h2 class="anchored" data-anchor-id="in-class-presentation">In-class presentation</h2>
+<p>Each student will give a 10-minute presentation about their changes. Whereas the goal of the Quarto report is to document all of the changes you made, the goal of the presentation is to share your changes with the class community. Everyone benefits from seeing their peers’ problems and solutions. In your presentation, you do not need to show every change that you made. Instead, we encourage you to focus on the most important/most interesting/most innovative changes that you want to share with the class. For whatever you choose to show, please include the “before” and the “after”. We encourage you to use screenshots and/or code snippets to demonstrate your changes.</p>
 
 
 </section>
