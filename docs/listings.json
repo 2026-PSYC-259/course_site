@@ -1,14 +1,5 @@
 [
   {
-    "listing": "/resources.html",
-    "items": [
-      "/resources/Materials.html",
-      "/resources/Setup.html",
-      "/resources/Cheatsheets.html",
-      "/resources/Shortcuts.html"
-    ]
-  },
-  {
     "listing": "/assignments.html",
     "items": [
       "/assignments/2ImportHomework.html",
@@ -17,8 +8,16 @@
       "/assignments/6WorkflowCritique.html",
       "/assignments/5AutomationHomework.html",
       "/assignments/7ExploratoryDataAnalysisHomework.html",
-      "/assignments/8QuartoHomework.html",
       "/assignments/10FinalProject.html"
+    ]
+  },
+  {
+    "listing": "/resources.html",
+    "items": [
+      "/resources/Materials.html",
+      "/resources/Setup.html",
+      "/resources/Cheatsheets.html",
+      "/resources/Shortcuts.html"
     ]
   }
 ]
